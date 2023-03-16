@@ -1,0 +1,4 @@
+# *.psd filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+4410_game/BTBA/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+BTBA/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
