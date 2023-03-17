@@ -9,6 +9,11 @@ using UnityEngine.InputSystem;
 #endif
 
 /*
+	TODO:
+		- have shooting affect ammo text
+		- when ammo = 0, tell Gun.cs we can no longer shoot
+		- implement reloading, should take some time as well
+
 	Notes for weapon system:
 	- Reference all possible weapons in variables
 	- In Start() , SetActive(false) for non-starting weapons
@@ -45,12 +50,29 @@ namespace StarterAssets
 		public float staminaRegenRate = 20.0f;
 		[Tooltip("Current Max Stamina")]
 		public float maxPlayerStamina = 100.0f;
+
+		[Header("UI")]
 		[Tooltip("Stamina Bar")]
 		[SerializeField] StaminaScript staminaBar;
 		[Tooltip("Stamina Bar Number")]
 		public TextMeshProUGUI staminaText;
+		[Tooltip("Current ammo / clip size text")]
+		public TextMeshProUGUI ammoText;
+		[Tooltip("Max ammo text")]
+		public TextMeshProUGUI maxAmmoText;
+
+		// GOTO: "SetWeaponActive()" for corresponding weapon indices
+		[Header("Weapon variables")]
 		[Tooltip("Array of booleans for weapons player currently has")]
 		bool[] currentWeapons = {false, false, false, false, false, false, false, false, false, false};
+		[Tooltip("Array of weapon ammo clip sizes")]
+		int[] weaponClipSizes = {30, 15, 0, 0, 0, 0, 0, 0, 0, 0};
+		[Tooltip("Array of current ammo values")]
+		int[] currentAmmoCount = {30, 15, 0, 0, 0, 0, 0, 0, 0, 0};
+		[Tooltip("Array of max weapon ammo")]
+		int[] maxWeaponAmmo = {200, 100, 0, 0, 0, 0, 0, 0, 0, 0};
+		[Tooltip("Boolean for Gun script for if we can still shoot - AKA if we still have ammo")]
+		bool canShoot = true;
 		[Tooltip("Boolean for allowing player to switch weapons")]
 		bool canSwap = true;
 		[Tooltip("Index of currently active weapon")]
@@ -59,13 +81,11 @@ namespace StarterAssets
 		public GameObject SF_AutoRifle;
 		public GameObject SF_Pistol;
 
-		[Space(10)]
+		[Header("Gravity variables")]
 		[Tooltip("The height the player can jump")]
 		public float JumpHeight = 1.5f;
 		[Tooltip("The character uses its own gravity value. The engine default is -9.81f")]
 		public float Gravity = -9.81f;
-
-		[Space(10)]
 		[Tooltip("Time required to pass before being able to jump again. Set to 0f to instantly jump again")]
 		public float JumpTimeout = 0.1f;
 		[Tooltip("Time required to pass before entering the fall state. Useful for walking down stairs")]
@@ -137,6 +157,7 @@ namespace StarterAssets
 		{
 			SetStarterWeapons();
 			SetStaminaText();
+			SetAmmoText();
 			_controller = GetComponent<CharacterController>();
 			_input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
@@ -157,6 +178,7 @@ namespace StarterAssets
 			Crouch();
 			Move();
 			SwapWeapons();
+			
 			if (_input.sprint)
 			{
 				staminaBar.UseStamina(staminaDrainRate);
@@ -316,6 +338,14 @@ namespace StarterAssets
 			}
 		}
 
+		// Function for updating / setting the ammo number value
+		private void SetAmmoText()
+		{
+			ammoText.text = currentAmmoCount[activeWeaponIndex].ToString() + " / " + weaponClipSizes[activeWeaponIndex].ToString();
+			maxAmmoText.text = maxWeaponAmmo[activeWeaponIndex].ToString();
+		}
+		
+
 		// Function for updating / setting the stamina number value
 		private void SetStaminaText()
 		{
@@ -335,8 +365,8 @@ namespace StarterAssets
 			- Players can only have 2 weapons at a time
 			- See 'SetWeaponActive' function for which indices are for which weapon
 		*/
-			SF_AutoRifle.SetActive(true);
-			SF_Pistol.SetActive(false);
+			SetWeaponActive(0, true);
+			SetWeaponActive(1, false);
 			currentWeapons[0] = true;
 			currentWeapons[1] = true;
 			activeWeaponIndex = 0;
