@@ -1,0 +1,516 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32687 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\Unity 2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+55569
+Successfully changed project path to: C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
+C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23960] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 633116286 [EditorId] 633116286 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23960] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 633116286 [EditorId] 633116286 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 136.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   NVIDIA
+    VRAM:     11041 MB
+    Driver:   31.0.15.3129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003512 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 117.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (471ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (354ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (62ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005886 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\saran\Desktop\4410\4410 game\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\saran\Desktop\4410\4410 game\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 115.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1131ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (977ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6255 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.1 MB). Loaded Objects now: 6706.
+Memory consumption went from 272.2 MB to 270.1 MB.
+Total: 4.809900 ms (FindLiveObjects: 0.441500 ms CreateObjectMapping: 0.398100 ms MarkObjects: 3.437700 ms  DeleteObjects: 0.531600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266038.667918 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Env_Tree_03_Snow_Convex.asset
+  artifactKey: Guid(d6600d29c869ef349afb92ed60191578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Env_Tree_03_Snow_Convex.asset using Guid(d6600d29c869ef349afb92ed60191578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641d126872535364d216520699a4fa7c') in 0.110985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_04.prefab
+  artifactKey: Guid(247e09e89c199dd46b07af0a0a46b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_04.prefab using Guid(247e09e89c199dd46b07af0a0a46b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514c2fb7aed322d734b570dfc33c7b88') in 0.123981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628669 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_05_Convex 2.asset
+  artifactKey: Guid(379cd3a5b09aa9145b5569f1a49f4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_05_Convex 2.asset using Guid(379cd3a5b09aa9145b5569f1a49f4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbbb3bab533c2e119a6d3547722bc5d') in 0.016009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_06_Snow.prefab
+  artifactKey: Guid(2023e1036cda08b48b0ddec79f623b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_06_Snow.prefab using Guid(2023e1036cda08b48b0ddec79f623b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68df15ee811aed0d64cd17a40d10c96') in 0.014695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_07_Convex.asset
+  artifactKey: Guid(aedd5872d46756c4fbea18ee3e798d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_07_Convex.asset using Guid(aedd5872d46756c4fbea18ee3e798d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83db242b3b33d9a467c48ded6e8b0807') in 0.011551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_07_Snow.prefab
+  artifactKey: Guid(5825e892e95759e4c8731f2f425e6565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_07_Snow.prefab using Guid(5825e892e95759e4c8731f2f425e6565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237e9c88ccbf785e41007c3cb28eee6c') in 0.011611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.047923 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_07_Snow_Convex.asset
+  artifactKey: Guid(afa764194151d6449924f63238c0c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_07_Snow_Convex.asset using Guid(afa764194151d6449924f63238c0c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf287428bfcd2c4ca561831c806121ab') in 0.011348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_08_Convex.asset
+  artifactKey: Guid(24524483bc90b064994aa4ddaa810310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_08_Convex.asset using Guid(24524483bc90b064994aa4ddaa810310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfee5262d8294170c939584b7ff93a6') in 0.010474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_08_Snow.prefab
+  artifactKey: Guid(0137417f88902f24aad8a1c974a235dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_08_Snow.prefab using Guid(0137417f88902f24aad8a1c974a235dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a890708bb308cb18d08f5801972619') in 0.013255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_09_Convex.asset
+  artifactKey: Guid(003cf9fb84be5b54e8631f5002515cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_09_Convex.asset using Guid(003cf9fb84be5b54e8631f5002515cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327c2dcb3acd4a6acc2e9511134ddd2c') in 0.010238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_08_Snow_Convex.asset
+  artifactKey: Guid(ff7af6a579a43ae429cbf30f9cc900c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_08_Snow_Convex.asset using Guid(ff7af6a579a43ae429cbf30f9cc900c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4c68cc33d15759539c6de0b3920558') in 0.007813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214992 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_09_Snow.prefab
+  artifactKey: Guid(af14d7397db521e43b92abe7021113f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_09_Snow.prefab using Guid(af14d7397db521e43b92abe7021113f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b9178b449f171854d77a7ff56dc365') in 0.013810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_010_Convex.asset
+  artifactKey: Guid(921f8dce8d84a014a81285714b484197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_010_Convex.asset using Guid(921f8dce8d84a014a81285714b484197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d37b54a252babf9636058b90f1f4b73') in 0.009748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_010_Snow.prefab
+  artifactKey: Guid(b2751436e06708b48927332ec278312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_010_Snow.prefab using Guid(b2751436e06708b48927332ec278312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6354306f659ff3497bed459008afaf') in 0.019872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.142118 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_010_Snow_Convex 1.asset
+  artifactKey: Guid(491543b225e8a7441a9a6c50e812027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_010_Snow_Convex 1.asset using Guid(491543b225e8a7441a9a6c50e812027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded6bab920a5e252d23b46aa194033ec') in 0.013639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_011_Convex 1.asset
+  artifactKey: Guid(dd97ab2af884d074185ec6c6a2990a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_011_Convex 1.asset using Guid(dd97ab2af884d074185ec6c6a2990a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448b0c4cd8faccbafa1a516afb626bb1') in 0.013630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_011_Snow_Convex 1.asset
+  artifactKey: Guid(c0eb029e2eef9f54eaad26f0240ac130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_011_Snow_Convex 1.asset using Guid(c0eb029e2eef9f54eaad26f0240ac130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38a00e03463676cdca10f5778a224c8') in 0.012438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.480562 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_012_Snow.prefab
+  artifactKey: Guid(a27920c1f5b4a214db86c72c7aa41011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_012_Snow.prefab using Guid(a27920c1f5b4a214db86c72c7aa41011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd027d11494d8dea72e22b03fbd7b1f0d') in 0.015325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_013.prefab
+  artifactKey: Guid(97bb6fd1f3a811c41af585fe99d31bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_013.prefab using Guid(97bb6fd1f3a811c41af585fe99d31bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9983447c5bc5cbe9328a4569fa1e679') in 0.011345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_013_Snow.prefab
+  artifactKey: Guid(a252453784235fe4ea7bd328a1db47c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_013_Snow.prefab using Guid(a252453784235fe4ea7bd328a1db47c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520f7f91a017c86bc834d92f67f056f9') in 0.011406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_014_Convex.asset
+  artifactKey: Guid(e81c7a1953f85b8428cbabb1d728756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_014_Convex.asset using Guid(e81c7a1953f85b8428cbabb1d728756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ceeff796ab9eb1a30444f4a33ba8a4') in 0.012073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.369720 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_014_Convex 1.asset
+  artifactKey: Guid(32938bda445afc0408fd81c737a0a3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_014_Convex 1.asset using Guid(32938bda445afc0408fd81c737a0a3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b6eea04fa7c5ac567719565c7be19') in 0.013553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_015.prefab
+  artifactKey: Guid(f32ecb45aa53d1849a30472139fa8191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_015.prefab using Guid(f32ecb45aa53d1849a30472139fa8191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a742f5232be04ec11487e36d369bec7') in 0.014610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_015_Snow.prefab
+  artifactKey: Guid(80eec4562f0015f458b238784e11cded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_015_Snow.prefab using Guid(80eec4562f0015f458b238784e11cded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e68658491147f15885a0498386d187') in 0.015853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.142532 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_016.prefab
+  artifactKey: Guid(8b9ee8d20c8c4c84f95499978c6e7d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_016.prefab using Guid(8b9ee8d20c8c4c84f95499978c6e7d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd5f22329d0bb1e862926185be3ad89') in 0.018370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_016_Snow.prefab
+  artifactKey: Guid(7fc058c49bcc88644a52cedcc223f09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_Tree_016_Snow.prefab using Guid(7fc058c49bcc88644a52cedcc223f09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7b90a7161f86f21be22ff3e1839cf2') in 0.011636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.421298 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_017_Snow_Convex 1.asset
+  artifactKey: Guid(e157d25b163c4c84a962a9f400d38a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_Tree_017_Snow_Convex 1.asset using Guid(e157d25b163c4c84a962a9f400d38a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e7bae8f3b13d88149c9b036fa790f8') in 0.014275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Env_Tree_Twisted_01_Snow_Convex.asset
+  artifactKey: Guid(6ce563af218c29643a902f680110191b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Env_Tree_Twisted_01_Snow_Convex.asset using Guid(6ce563af218c29643a902f680110191b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6950c1d2d166b780b3e454ac891dafdf') in 0.010228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Env_Tree_Twisted_02_Convex 1.asset
+  artifactKey: Guid(64916a1f892b8a746bff0579c2bd0582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Env_Tree_Twisted_02_Convex 1.asset using Guid(64916a1f892b8a746bff0579c2bd0582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5259a7ac6fd395296914e260bf00a83') in 0.023102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.968863 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/Snow/SM_Env_Tree_Twisted_02_Snow.prefab
+  artifactKey: Guid(22629e6c7df1ee94f99da26902c3fb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/Snow/SM_Env_Tree_Twisted_02_Snow.prefab using Guid(22629e6c7df1ee94f99da26902c3fb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ecdfb1bb99bd5176b3c81352d069d0') in 0.013626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeBirch_01_Snow.prefab
+  artifactKey: Guid(9ff00da5505916f4285c4891a1195bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeBirch_01_Snow.prefab using Guid(9ff00da5505916f4285c4891a1195bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2841513dcffe5ee9a474d99b7bf9d9') in 0.014107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeBirch_02.prefab
+  artifactKey: Guid(c07acb8b44d91a440b365eeb6578f0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeBirch_02.prefab using Guid(c07acb8b44d91a440b365eeb6578f0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737e46adaa76e76eb136456d52496ddc') in 0.013534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428467 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreeBirch_02_Convex.asset
+  artifactKey: Guid(f18c5ce2529d9cb4989da4e13053c0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreeBirch_02_Convex.asset using Guid(f18c5ce2529d9cb4989da4e13053c0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc333d2920272c18e2fb49205ec9f290') in 0.011796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreeBirch_03_Convex.asset
+  artifactKey: Guid(6f4da951a8350c4439ec6b61d24e1097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreeBirch_03_Convex.asset using Guid(6f4da951a8350c4439ec6b61d24e1097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be78bbad227468604eeb9065e8fa521e') in 0.011286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreeDead_01_Convex.asset
+  artifactKey: Guid(3734d10cae3a63f42805a81e22a45de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreeDead_01_Convex.asset using Guid(3734d10cae3a63f42805a81e22a45de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cea45424dd9ed9075fa47a1d9e6f98') in 0.012470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.312143 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeDead_02.prefab
+  artifactKey: Guid(3a394833ed3019347885eb63e392eb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeDead_02.prefab using Guid(3a394833ed3019347885eb63e392eb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68d63938690b3a15cc94ef23bea4e6d') in 0.016486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.942532 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeDead_02_Snow.prefab
+  artifactKey: Guid(dd61f220c8d4f3643ad0d82a7e0927d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeDead_02_Snow.prefab using Guid(dd61f220c8d4f3643ad0d82a7e0927d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc47cb625f559c85dfa64037abe9d07') in 0.013605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreeDead_02_Snow_Convex 3.asset
+  artifactKey: Guid(479c614fd82049845b9ab98340e4c1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreeDead_02_Snow_Convex 3.asset using Guid(479c614fd82049845b9ab98340e4c1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff430df8da5a849f50299a3153d77306') in 0.021360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_01.prefab
+  artifactKey: Guid(cc890b11e6968444bbb9050c8b78e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_01.prefab using Guid(cc890b11e6968444bbb9050c8b78e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe599bdcabae6707828c8da0a97f4344') in 0.017957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.354642 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_01_Convex.asset
+  artifactKey: Guid(471e993dd50d88d409f9196a291aa6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_01_Convex.asset using Guid(471e993dd50d88d409f9196a291aa6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce80785a47811074de99235d40f9363') in 0.010911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_01_Snow_Convex 1.asset
+  artifactKey: Guid(e4d84b1b72377bb41b4e221abde7dcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_01_Snow_Convex 1.asset using Guid(e4d84b1b72377bb41b4e221abde7dcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884219ab6983135f220beb8304842788') in 0.013720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_02_Snow.prefab
+  artifactKey: Guid(76c555a8d57b63c479e8780df868ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_02_Snow.prefab using Guid(76c555a8d57b63c479e8780df868ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efc512bfaef5e1915a8b24aa43909da') in 0.012405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_02_Snow_Convex 1.asset
+  artifactKey: Guid(f61949f596a32654e92195765ae5b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_02_Snow_Convex 1.asset using Guid(f61949f596a32654e92195765ae5b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b27be38286c0c814a0ba7e990662978') in 0.030847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.045087 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_03.prefab
+  artifactKey: Guid(6593f1a0b8ab64a47bc3038147d84d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_03.prefab using Guid(6593f1a0b8ab64a47bc3038147d84d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f41e072237628c3a4d7bcdfced97d4c') in 0.013995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_03_Convex 2.asset
+  artifactKey: Guid(8b22e56532e0e8d409a5df42345547fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_03_Convex 2.asset using Guid(8b22e56532e0e8d409a5df42345547fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6738efc3254bd47407f12e138d1f87') in 0.017400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_03_Snow_Convex 2.asset
+  artifactKey: Guid(7e497b0d73daf9949848648f2d9df406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_03_Snow_Convex 2.asset using Guid(7e497b0d73daf9949848648f2d9df406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8093302adbb8a580e7c0c92f00326c7') in 0.017024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_04_Convex 1.asset
+  artifactKey: Guid(5aec7c9e84e6d9341ae63d824a831e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_04_Convex 1.asset using Guid(5aec7c9e84e6d9341ae63d824a831e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd786e721264a37d7e4e9968f0a5e51') in 0.015166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_03_Snow_Convex 3.asset
+  artifactKey: Guid(f6a744d40e6ff4d45b74bc36f008e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Models/Collision/SM_Env_TreePine_03_Snow_Convex 3.asset using Guid(f6a744d40e6ff4d45b74bc36f008e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e604d5736eb28984e07abb440f09f7') in 0.040891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.039759 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeStump_01.prefab
+  artifactKey: Guid(13af20cb32cfaab428901a23183d2ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Environments/SM_Env_TreeStump_01.prefab using Guid(13af20cb32cfaab428901a23183d2ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5a10df2ed3b86c370938f631e5bc2b') in 0.014170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Generic/SM_Generic_Tree_01.prefab
+  artifactKey: Guid(408f59ce148892a4480e8987e8a029b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Generic/SM_Generic_Tree_01.prefab using Guid(408f59ce148892a4480e8987e8a029b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f145f72d9cddd839438ab0ab3d44a460') in 0.013094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Tree_02.prefab
+  artifactKey: Guid(1ce022d65e1e7b84d9e5ae4a479c39ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Tree_02.prefab using Guid(1ce022d65e1e7b84d9e5ae4a479c39ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd4b9e291af5fab558d6f80b94ba516') in 0.011794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125779 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Tree_03.prefab
+  artifactKey: Guid(56edbd376562e9544ab88753fd3c4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Tree_03.prefab using Guid(56edbd376562e9544ab88753fd3c4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09630b5378226549f2c553af78c60b22') in 0.011084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Models/SM_Generic_Tree_04.fbx
+  artifactKey: Guid(0b35305b613e7904395698641c0150cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Models/SM_Generic_Tree_04.fbx using Guid(0b35305b613e7904395698641c0150cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e82b1ef549c47e97c65655587e261e5') in 0.019964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Generic/SM_Generic_TreeDead_01.prefab
+  artifactKey: Guid(a48c66cea6b296343a9a954ab39c7cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Generic/SM_Generic_TreeDead_01.prefab using Guid(a48c66cea6b296343a9a954ab39c7cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c786b5d4f21adc685ae5cb696d9799') in 0.016883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.578332 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_TreeStump_01.prefab
+  artifactKey: Guid(e865a10713e46984aba70d89a679e42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_TreeStump_01.prefab using Guid(e865a10713e46984aba70d89a679e42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaaceeb5c582b1b7c54833d98109065') in 0.012152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Props/SM_Prop_Tree_Palm_02.prefab
+  artifactKey: Guid(571f8f8a90e22e94c90edd3d7b14a22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Props/SM_Prop_Tree_Palm_02.prefab using Guid(571f8f8a90e22e94c90edd3d7b14a22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab414bcd2cd2bacd55589e4813c529d3') in 0.013994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.187055 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Props/SM_Prop_Tree_Pine_01.prefab
+  artifactKey: Guid(bc154b00e9c8e974b9e631f7c82352eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Props/SM_Prop_Tree_Pine_01.prefab using Guid(bc154b00e9c8e974b9e631f7c82352eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef937cf55a1e3d844e3d817e8bff844') in 0.014236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Props/SM_Prop_Tree_Round_02.prefab
+  artifactKey: Guid(6d768ed8c1941594aa52e683be1a33f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Props/SM_Prop_Tree_Round_02.prefab using Guid(6d768ed8c1941594aa52e683be1a33f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8167b48f01a4d7536e3baf31d0880d') in 0.014173 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
