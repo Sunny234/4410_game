@@ -15,7 +15,7 @@ C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55611
+58515
 Successfully changed project path to: C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16144] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 2861831783 [EditorId] 2861831783 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27480] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3302167356 [EditorId] 3302167356 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16144] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 2861831783 [EditorId] 2861831783 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27480] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3302167356 [EditorId] 3302167356 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 121.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003469 seconds.
+Registered in 0.003527 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 119.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.463 seconds
+- Completed reload, in  0.487 seconds
 Domain Reload Profiling:
-	ReloadAssembly (463ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (487ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (348ms)
+		EndReloadAssembly (368ms)
 			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (62ms)
+			SetupTypeCache (63ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (88ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (96ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,37 +105,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005925 seconds.
+Registered in 0.006011 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\saran\Desktop\4410\4410 game\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\saran\Desktop\4410\4410 game\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 120.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 120.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
+- Completed reload, in  1.050 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1054ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (906ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (553ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (555ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (121ms)
-				BeforeProcessingInitializeOnLoad (96ms)
+				BeforeProcessingInitializeOnLoad (95ms)
 				ProcessInitializeOnLoadAttributes (279ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6255 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (2.1 MB). Loaded Objects now: 6706.
-Memory consumption went from 272.2 MB to 270.1 MB.
-Total: 4.270000 ms (FindLiveObjects: 0.432900 ms CreateObjectMapping: 0.393800 ms MarkObjects: 2.965200 ms  DeleteObjects: 0.477000 ms)
+Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (2.0 MB). Loaded Objects now: 6719.
+Memory consumption went from 280.7 MB to 278.6 MB.
+Total: 3.874200 ms (FindLiveObjects: 0.414500 ms CreateObjectMapping: 0.310000 ms MarkObjects: 2.689500 ms  DeleteObjects: 0.459400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,70 +164,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 280170.147241 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_01_Wall_02.prefab
-  artifactKey: Guid(ec38c489fc871fc46b0e0e40ea13a84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_01_Wall_02.prefab using Guid(ec38c489fc871fc46b0e0e40ea13a84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b2c1e9eee36728c1a415783116413c') in 0.243323 seconds 
+  Time since last request: 184963.718801 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Door@2x.png
+  artifactKey: Guid(0dc0c708f5d18c845b2c60321e211f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Door@2x.png using Guid(0dc0c708f5d18c845b2c60321e211f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eec555c3fd28a9c1405c8fff393366') in 0.073886 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1435.226317 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Env_GroundMound_02.fbx
-  artifactKey: Guid(a11be3f13fd12a3459ce7dc758a94cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Env_GroundMound_02.fbx using Guid(a11be3f13fd12a3459ce7dc758a94cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b088ecd3a209a0af5282c8c6c7fde') in 0.046894 seconds 
+  Time since last request: 5.614648 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Door Glass.png
+  artifactKey: Guid(cee3268bc03c19040b23eac992c88d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Door Glass.png using Guid(cee3268bc03c19040b23eac992c88d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28231cd41865ae10b9beb04c54b5a7f2') in 0.024819 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_05.fbx
-  artifactKey: Guid(ba546395530649f439fd63c27d99c5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_05.fbx using Guid(ba546395530649f439fd63c27d99c5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5035a7723ea642de075eb24a7c051bfe') in 0.041347 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Enviroment/enviroment/Office building/materials Building/Door roof.mat
+  artifactKey: Guid(23cd48cd9103e7845862900a85d775ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/materials Building/Door roof.mat using Guid(23cd48cd9103e7845862900a85d775ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227bdfb1e7e27960211a3545895d6e80') in 0.187558 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_01.fbx
-  artifactKey: Guid(ea062f9137b754e43a827c5d1333c73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_01.fbx using Guid(ea062f9137b754e43a827c5d1333c73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f797c6d534227551cad3b13800cd02') in 0.021597 seconds 
+  Time since last request: 9.357196 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Door Frame_01.prefab
+  artifactKey: Guid(680503713abcfb149bae4f505b6c449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Door Frame_01.prefab using Guid(680503713abcfb149bae4f505b6c449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cce874ff0bd393050f9e97c0c33ce1f') in 0.088774 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_02.fbx
-  artifactKey: Guid(423c4c0e14dc7c44296e30945f1061c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_02.fbx using Guid(423c4c0e14dc7c44296e30945f1061c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc630bd8da40731ce444f1683500f8d5') in 0.020126 seconds 
+  Time since last request: 16.894659 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_House_Door_02_Snow.prefab
+  artifactKey: Guid(2e67a11c88570aa44b81f74cfda3cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_House_Door_02_Snow.prefab using Guid(2e67a11c88570aa44b81f74cfda3cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36228a368c3bab1c2982bf9b529a9161') in 0.022565 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_06.fbx
-  artifactKey: Guid(5e38677a19945a843b0525495fee7f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_06.fbx using Guid(5e38677a19945a843b0525495fee7f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc71cf8e7997d4c5347c78ebd35d78a2') in 0.022708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_04.fbx
-  artifactKey: Guid(bd55fd1ecd7ba644a93583e30a65bf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_GroundMounds_04.fbx using Guid(bd55fd1ecd7ba644a93583e30a65bf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490df8effa6b0f890dcb6ffbec424bc0') in 0.028335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.496743 seconds.
-  path: Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_Grass_01.fbx
-  artifactKey: Guid(aaca44a3eca756c419ccc26430c2a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonAdventure/Models/SM_Env_Grass_01.fbx using Guid(aaca44a3eca756c419ccc26430c2a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa23903255e1b55569a8f7475d2ecc39') in 0.017512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SyntyStudios/PolygonCity/Models/SM_Env_Grass_01.fbx
-  artifactKey: Guid(24e62eff11865724fbbab3ac5fffb303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Env_Grass_01.fbx using Guid(24e62eff11865724fbbab3ac5fffb303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bd9784ae10b29273cb06d2ce6b338d') in 0.014761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SyntyStudios/PolygonCity/Models/SM_Env_GrassPath_Corner_01.fbx
-  artifactKey: Guid(602b7629d0bc3f4488da25a302966862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Env_GrassPath_Corner_01.fbx using Guid(602b7629d0bc3f4488da25a302966862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cba0fb295aafbca148567f887046359') in 0.015135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/SyntyStudios/PolygonCity/Models/SM_Env_GrassPath_Straight_01.fbx
-  artifactKey: Guid(7b7b77ab314d27a4b88812f19caa23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Env_GrassPath_Straight_01.fbx using Guid(7b7b77ab314d27a4b88812f19caa23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726cc1a405d20392571db4d607ab9139') in 0.016149 seconds 
+  Time since last request: 23.303651 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab
+  artifactKey: Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab using Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4293a7ee2480c7eaff71e31235accb6') in 0.019241 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

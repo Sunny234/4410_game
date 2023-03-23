@@ -15,7 +15,7 @@ C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55569
+59040
 Successfully changed project path to: C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6280] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 2152793680 [EditorId] 2152793680 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24348] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 268378835 [EditorId] 268378835 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6280] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 2152793680 [EditorId] 2152793680 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24348] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 268378835 [EditorId] 268378835 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 119.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,74 +67,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003456 seconds.
+Registered in 0.003425 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.510 seconds
+- Completed reload, in  0.505 seconds
 Domain Reload Profiling:
-	ReloadAssembly (511ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (505ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (366ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (380ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (246ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
+				RefreshPlugins (116ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005901 seconds.
+Registered in 0.005898 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\saran\Desktop\4410\4410 game\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\saran\Desktop\4410\4410 game\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 118.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 120.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.089 seconds
+- Completed reload, in  1.073 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1089ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (933ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (557ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (551ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (281ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (276ms)
 				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6255 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (2.1 MB). Loaded Objects now: 6705.
-Memory consumption went from 271.9 MB to 269.8 MB.
-Total: 4.587600 ms (FindLiveObjects: 0.428600 ms CreateObjectMapping: 0.325300 ms MarkObjects: 3.310900 ms  DeleteObjects: 0.521900 ms)
+Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (2.0 MB). Loaded Objects now: 6719.
+Memory consumption went from 280.7 MB to 278.6 MB.
+Total: 3.611800 ms (FindLiveObjects: 0.387500 ms CreateObjectMapping: 0.167400 ms MarkObjects: 2.616200 ms  DeleteObjects: 0.440100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,76 +164,323 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 264194.221841 seconds.
-  path: Assets/SyntyStudios/PolygonAdventure/Prefabs/Buildings/SM_Bld_Wall_01.prefab
-  artifactKey: Guid(76d0990ce6d878544bdb1bc9f388dbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonAdventure/Prefabs/Buildings/SM_Bld_Wall_01.prefab using Guid(76d0990ce6d878544bdb1bc9f388dbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293d048e79bb108be3772750cb98daf9') in 0.219135 seconds 
+  Time since last request: 122727.610687 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/office building.fbx
+  artifactKey: Guid(18cd780e6948a554a850b2d047ebf8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/office building.fbx using Guid(18cd780e6948a554a850b2d047ebf8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b15556b06d624ceefe1c6ec8ae7b00') in 1.029127 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.388841 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01
-  artifactKey: Guid(226c023f060c1f04991ebb0ef1097cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01 using Guid(226c023f060c1f04991ebb0ef1097cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b575625a26d0513f3fb7183dbaffbf') in 0.007035 seconds 
+  Time since last request: 2598.646646 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs
+  artifactKey: Guid(649241ef9c251474b94590041f0e00d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs using Guid(649241ef9c251474b94590041f0e00d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f8556d96defdab88add9947d6e29c2') in 0.006362 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.062344 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Corner_01.prefab
-  artifactKey: Guid(4ddec33f57bc4c74680f805d105aa0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Corner_01.prefab using Guid(4ddec33f57bc4c74680f805d105aa0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6779fe4bb1adfb1d001bea34aba5fb67') in 0.037355 seconds 
+  Time since last request: 2.846570 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit
+  artifactKey: Guid(7650939902e4fdb4988d94990fbc7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit using Guid(7650939902e4fdb4988d94990fbc7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209262b20d1322113f9a0a0292b01e73') in 0.006985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Pillar_4x4.prefab
-  artifactKey: Guid(336374783a6a6f9438803704ebba706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Pillar_4x4.prefab using Guid(336374783a6a6f9438803704ebba706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad38494321e50da0c97817d9f61b70a') in 0.052684 seconds 
+  Time since last request: 1.199776 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors
+  artifactKey: Guid(e30097d96c65cdf4caf6ce531be8071a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors using Guid(e30097d96c65cdf4caf6ce531be8071a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724031d1f9100fa6ae970cf76976c0b3') in 0.007186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050276 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Man.prefab
+  artifactKey: Guid(229639aed4129534fa69a11f5305b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Man.prefab using Guid(229639aed4129534fa69a11f5305b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c872f0f9e74ec19d60ce7cc8e60c1cfe') in 0.027727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 354.356993 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Stall
+  artifactKey: Guid(94b4017f1e3888745a73e36324812a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Stall using Guid(94b4017f1e3888745a73e36324812a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429f0163ff84c1ae10fe5e868431b123') in 0.006674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057614 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Stall/RR_Stall_01_DoorFrame.prefab
+  artifactKey: Guid(d94ca8c0c973920499d3cb52238af9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Stall/RR_Stall_01_DoorFrame.prefab using Guid(d94ca8c0c973920499d3cb52238af9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d30aa51438af0590b5e16c4dfc67ce') in 0.030540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1863.326129 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common
+  artifactKey: Guid(fb45e9e13a1072940b2100c8ce370c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common using Guid(fb45e9e13a1072940b2100c8ce370c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a997650cc1e8ef7b946ccbd1aefb449c') in 0.007026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.937014 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials
+  artifactKey: Guid(b80d857f0927f6b48b703072a6c76a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials using Guid(b80d857f0927f6b48b703072a6c76a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddba7333bcd8668c4395cbc84c041bd9') in 0.006198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.767548 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets
+  artifactKey: Guid(748556adda317c6488310b711b275dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets using Guid(748556adda317c6488310b711b275dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9185c4b7239a29e282ebf8769ac49584') in 0.007706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.150433 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire
+  artifactKey: Guid(4a8014ef20b900f46b698a159b6ffb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire using Guid(4a8014ef20b900f46b698a159b6ffb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e048551ea2a9bc274df850c44476d392') in 0.001922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.154621 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy
+  artifactKey: Guid(f72c5fb4a441cf0499e2815a06ef852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy using Guid(f72c5fb4a441cf0499e2815a06ef852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110bb0e36152903cb725412bfb731a33') in 0.002411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.687671 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom
+  artifactKey: Guid(9d4ab9777aa50c14fbfac8f939a3ebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom using Guid(9d4ab9777aa50c14fbfac8f939a3ebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9a19e0df8b0521411960869705dc1b') in 0.001988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.275469 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models
+  artifactKey: Guid(0238337b50b4fb840b7948eada9f0c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models using Guid(0238337b50b4fb840b7948eada9f0c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7291247e12c20dd89c3c03facf12c6') in 0.005643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.838565 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits
+  artifactKey: Guid(e1df33c3547317b4781f62068dfd6146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits using Guid(e1df33c3547317b4781f62068dfd6146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e52cf39de693945bfa5a056d87cabf') in 0.007153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.653319 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy
+  artifactKey: Guid(a3b11110f41049f4f8d46bfc8ee7a0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy using Guid(a3b11110f41049f4f8d46bfc8ee7a0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fcf0e4c98f8283ef18379d37a9ca65') in 0.002253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.393765 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/Characters.fbx
+  artifactKey: Guid(897b34267f422c1499700402763d096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/Characters.fbx using Guid(897b34267f422c1499700402763d096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae69761befa744a68ae0c329fa59f9c') in 0.116033 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Pillar_2x2.prefab
-  artifactKey: Guid(898817d0fbc7ec3448ce39efd8267ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Pillar_2x2.prefab using Guid(898817d0fbc7ec3448ce39efd8267ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b2c65f73fbb4059f9d4be5837908e6') in 0.027183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.360039 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02
-  artifactKey: Guid(f6c840e295526214a9b053f3b1a5eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02 using Guid(f6c840e295526214a9b053f3b1a5eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15db3db08c7ca26021a33c3c4b68042d') in 0.005565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.051898 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Corner_01.prefab
-  artifactKey: Guid(5751082ea532e49478e631f5ff9a1cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Corner_01.prefab using Guid(5751082ea532e49478e631f5ff9a1cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f39fca548e319c4d83a52018eb37d2d') in 0.016460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Pillar_2x2.prefab
-  artifactKey: Guid(2cf7605246c1a3c4a8bff50e0beb194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Pillar_2x2.prefab using Guid(2cf7605246c1a3c4a8bff50e0beb194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35eee181f1ade399e226b3c406fb1bbd') in 0.017968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Pillar_4x4.prefab
-  artifactKey: Guid(b6eb91e203f46fb4c8f3ae98b953a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Pillar_4x4.prefab using Guid(b6eb91e203f46fb4c8f3ae98b953a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83381e970716f5b6aac7093c9e3fd2b9') in 0.016363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.305629 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03
-  artifactKey: Guid(5fc645babc362d2469869b278c5797e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03 using Guid(5fc645babc362d2469869b278c5797e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef742745d98469e8fa5c5b11d787ef7') in 0.006351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.068035 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Corner_01.prefab
-  artifactKey: Guid(c873e765218b357479718f2fe5578f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Corner_01.prefab using Guid(c873e765218b357479718f2fe5578f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cad182946efbee5ea5dfcb23f41ce2') in 0.018824 seconds 
+  path: Assets/Enviroment/enviroment/Office building/Prefabs/Climb poles Prefab.prefab
+  artifactKey: Guid(9cae3c9688e051e4fa6c097ea2d17a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/Prefabs/Climb poles Prefab.prefab using Guid(9cae3c9688e051e4fa6c097ea2d17a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc6d073778d39fea835be0abfcbc298') in 0.026641 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Pillar_3x3.prefab
-  artifactKey: Guid(77057a053541fb344a2d4dc020cbf68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Pillar_3x3.prefab using Guid(77057a053541fb344a2d4dc020cbf68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca1e5f71bd549f22af0292da5458588') in 0.019467 seconds 
+  path: Assets/Enviroment/enviroment/Office building/Prefabs/filing B prefab.prefab
+  artifactKey: Guid(fac4ae714c286054c82c1f4e68a3e641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/Prefabs/filing B prefab.prefab using Guid(fac4ae714c286054c82c1f4e68a3e641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71190512bf3d837d4f06e70e925078a7') in 0.015251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviroment/enviroment/Office building/Prefabs/filing A prefab.prefab
+  artifactKey: Guid(9fce8288c1c16de43addab556737d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/Prefabs/filing A prefab.prefab using Guid(9fce8288c1c16de43addab556737d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6362127934e09900491a1f838cb64165') in 0.020837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Ceiling_01.prefab
+  artifactKey: Guid(c8a35b1154033a342ac94fd67adf1991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Ceiling_01.prefab using Guid(c8a35b1154033a342ac94fd67adf1991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fc37590eb69a9e19e19481bb9a65dd') in 0.031499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Elevator emission graphics/Elevator Light On.png
+  artifactKey: Guid(a3fe2e9c7edcbca49aa9660496af7af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Elevator emission graphics/Elevator Light On.png using Guid(a3fe2e9c7edcbca49aa9660496af7af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f3ef842b925068d3a2c087b0e5201a') in 0.020754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/filing A.png
+  artifactKey: Guid(be7154b2895a9fa428ae6de8d96b6bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/filing A.png using Guid(be7154b2895a9fa428ae6de8d96b6bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a902c95f3c45439955f6ce3d6edac03') in 0.011372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Climb poles.png
+  artifactKey: Guid(7ee0cfab06eec4d41a113d6d99a30e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Climb poles.png using Guid(7ee0cfab06eec4d41a113d6d99a30e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cd7c21fb1ef52e238998a979df8a6f') in 0.009338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/Bottle.fbx
+  artifactKey: Guid(e69495662f412aa44bc9e23bbcd5545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/Bottle.fbx using Guid(e69495662f412aa44bc9e23bbcd5545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f746e135b1842b0884f67e595075612') in 0.021231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143838 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/LightingData.asset
+  artifactKey: Guid(f2de524f6aaff624fbdca6f131b25f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/LightingData.asset using Guid(f2de524f6aaff624fbdca6f131b25f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 248 files out of 1240 are missing. Please use Generate Lighting to rebuild the lighting data.
+ -> (artifact id: '02af400b703694c7ecb30ad716014750') in 0.089043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-19_comp_dir.png
+  artifactKey: Guid(f38457d571912074fadad8e488a35f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-19_comp_dir.png using Guid(f38457d571912074fadad8e488a35f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02094eb1235c4eeb6ed8a1f4e1cdf8c3') in 0.015965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-7_comp_light.exr
+  artifactKey: Guid(f36944972ce8ff1458bb00892ee076e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-7_comp_light.exr using Guid(f36944972ce8ff1458bb00892ee076e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee352fbf902e0249df3c25d73c9eb22') in 0.024909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-1_comp_light.exr
+  artifactKey: Guid(63a49ca25a2d26445823e620bed71f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-1_comp_light.exr using Guid(63a49ca25a2d26445823e620bed71f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e888a33a9410182e4a591ffed9d44dd') in 0.019715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-7_comp_dir.png
+  artifactKey: Guid(912bbca3965e2dc4c9e4af2ca81eefdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-7_comp_dir.png using Guid(912bbca3965e2dc4c9e4af2ca81eefdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5124dafc9be7b2682cf0e0612aac88dc') in 0.017238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-8_comp_light.exr
+  artifactKey: Guid(12986cbff227ddc40a2890bf950dc522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-8_comp_light.exr using Guid(12986cbff227ddc40a2890bf950dc522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20a7e273b3e4d0149b9870cac3f20d2') in 0.018761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-21_comp_dir.png
+  artifactKey: Guid(20ebb97138bcfaf40bbb13e9463afa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-21_comp_dir.png using Guid(20ebb97138bcfaf40bbb13e9463afa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6af3e694187a85bf1287b49dc051bd') in 0.020938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-11_comp_light.exr
+  artifactKey: Guid(58bb4c7f3843db948be2b0f04e0df74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-11_comp_light.exr using Guid(58bb4c7f3843db948be2b0f04e0df74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667d8e1d633315d4e0d4237b41257b8b') in 0.020580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-17_comp_light.exr
+  artifactKey: Guid(09a8305588ee819408c5727f60c933b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-17_comp_light.exr using Guid(09a8305588ee819408c5727f60c933b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d44db23f45f919f5445b9b950e1666c') in 0.016930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-6_comp_dir.png
+  artifactKey: Guid(81d888d251f02d64985730c0ab9912eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-6_comp_dir.png using Guid(81d888d251f02d64985730c0ab9912eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b9b360a1f6323b7c2e570de7c6823d') in 0.018869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-3_comp_dir.png
+  artifactKey: Guid(dbf1cd4616f53bf4da9507e23cb7acd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-3_comp_dir.png using Guid(dbf1cd4616f53bf4da9507e23cb7acd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93ea49af48b6ec7769e39e2d9b5f03c') in 0.016056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-15_comp_light.exr
+  artifactKey: Guid(e1284c97faf7ada41b676980cdcbd3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-15_comp_light.exr using Guid(e1284c97faf7ada41b676980cdcbd3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a49756237306bff4181d019cef3dee') in 0.019209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-8_comp_dir.png
+  artifactKey: Guid(3414f1f1af6a5944f88d03405b56edec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-8_comp_dir.png using Guid(3414f1f1af6a5944f88d03405b56edec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10e7350ba306c631a09b1b7dfd2a15d') in 0.016558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-10_comp_dir.png
+  artifactKey: Guid(064ed9a9077bb1d4e9ae37137f8c49b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-10_comp_dir.png using Guid(064ed9a9077bb1d4e9ae37137f8c49b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb5d27f0b1ec3720788cafbca1ab89e') in 0.016273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-17_comp_dir.png
+  artifactKey: Guid(eccd46f50798d0740a9d4fa66504be0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-17_comp_dir.png using Guid(eccd46f50798d0740a9d4fa66504be0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11398eff5407363b729620ffd1271399') in 0.016463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-9_comp_dir.png
+  artifactKey: Guid(0206fcccff929ac449587444eadb1d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-9_comp_dir.png using Guid(0206fcccff929ac449587444eadb1d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cede0a3e2d7b36bcb18df57853002614') in 0.014898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-18_comp_light.exr
+  artifactKey: Guid(e1a955ff10066f645be3a590391d0cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-18_comp_light.exr using Guid(e1a955ff10066f645be3a590391d0cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa8ea7fc7924f490988a0bc5f198f79') in 0.017367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-20_comp_light.exr
+  artifactKey: Guid(6b903298e0e9e4940afccdd3194d570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-20_comp_light.exr using Guid(6b903298e0e9e4940afccdd3194d570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9faf2dc1cb45f1e7ed10b3f5096a000') in 0.019692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-18_comp_dir.png
+  artifactKey: Guid(d3316cfe895522d4bbd3339258e50a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-18_comp_dir.png using Guid(d3316cfe895522d4bbd3339258e50a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c393bccfe92d06acb4ed188893be38') in 0.016545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-4_comp_light.exr
+  artifactKey: Guid(78931c364f30c6043a1c7aa08f62a147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-4_comp_light.exr using Guid(78931c364f30c6043a1c7aa08f62a147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d702e60cd1e9dc72d882ad4c53dcb94') in 0.017852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-13_comp_light.exr
+  artifactKey: Guid(ac0d34c04ecd638489cde53c6495ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building/Lightmap-13_comp_light.exr using Guid(ac0d34c04ecd638489cde53c6495ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e8f54208e09e4d05f8f98c2a7084f4') in 0.015963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.543273 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Icons/SM_Icon_Light_Area_01.prefab
+  artifactKey: Guid(5b6cf40d483399744868fa026f8a03c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Icons/SM_Icon_Light_Area_01.prefab using Guid(5b6cf40d483399744868fa026f8a03c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a92fdcd9ecdb4ba3eb957d12e9adb9') in 0.034688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Icons/SM_Icon_Light_Spotlight_01.prefab
+  artifactKey: Guid(70b3d2ddfc6ce7e469cfa4a3813595ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Icons/SM_Icon_Light_Spotlight_01.prefab using Guid(70b3d2ddfc6ce7e469cfa4a3813595ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958def450015a5808546c5c08471df43') in 0.034390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392670 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Props/SM_Prop_Skylight_01.prefab
+  artifactKey: Guid(340c857ab70b5be4abab55cba8788069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Props/SM_Prop_Skylight_01.prefab using Guid(340c857ab70b5be4abab55cba8788069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c60c4cf0ce462503dae5c285204775') in 0.021705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2522.938981 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/exit sign.mat
+  artifactKey: Guid(8832655e5f5b4994dab005b96f8bcaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/exit sign.mat using Guid(8832655e5f5b4994dab005b96f8bcaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31210235b81c7b6d2b4142a99be626b3') in 0.024538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/Fridge.mat
+  artifactKey: Guid(aa73e3d5f0986f84ea786e033c686da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/Fridge.mat using Guid(aa73e3d5f0986f84ea786e033c686da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee82b84f0b47bcb7e85b36f91f7c88ae') in 0.027112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/File box grey.mat
+  artifactKey: Guid(e75cd6b779025fc45afeb37e003880f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/File box grey.mat using Guid(e75cd6b779025fc45afeb37e003880f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33174897e41e2920562a73f964fbd53a') in 0.036456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enviroment/enviroment/Office building/materials Building/Glass.mat
+  artifactKey: Guid(e822722b9afb7f94cbf04f23ce16c856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/materials Building/Glass.mat using Guid(e822722b9afb7f94cbf04f23ce16c856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6a962720f3ead88d460b18a414222d') in 0.010058 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

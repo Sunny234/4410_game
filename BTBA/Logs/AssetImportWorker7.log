@@ -15,7 +15,7 @@ C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-55611
+58515
 Successfully changed project path to: C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/saran/Desktop/4410/4410 game/4410_game/BTBA
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32828] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 4272995796 [EditorId] 4272995796 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7132] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1440441133 [EditorId] 1440441133 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32828] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 4272995796 [EditorId] 4272995796 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7132] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1440441133 [EditorId] 1440441133 [Version] 1048832 [Id] WindowsEditor(7,Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 141.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 144.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003595 seconds.
+Registered in 0.003664 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.473 seconds
+- Completed reload, in  0.475 seconds
 Domain Reload Profiling:
-	ReloadAssembly (473ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (476ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (353ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (348ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (63ms)
+			SetupTypeCache (60ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (240ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
+				RefreshPlugins (116ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007341 seconds.
+Registered in 0.005908 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\saran\Desktop\4410\4410 game\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\saran\Desktop\4410\4410 game\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 116.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.046 seconds
+- Completed reload, in  1.068 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1047ms)
+	ReloadAssembly (1069ms)
 		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (896ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (553ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (551ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6255 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (2.1 MB). Loaded Objects now: 6707.
-Memory consumption went from 272.0 MB to 270.0 MB.
-Total: 3.740800 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.297000 ms MarkObjects: 2.575200 ms  DeleteObjects: 0.462500 ms)
+Unloading 6258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (2.0 MB). Loaded Objects now: 6719.
+Memory consumption went from 280.6 MB to 278.6 MB.
+Total: 3.664600 ms (FindLiveObjects: 0.389600 ms CreateObjectMapping: 0.142800 ms MarkObjects: 2.677000 ms  DeleteObjects: 0.454500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,184 +164,136 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 286763.775981 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/PostProcessing/LensFlareResource/CircleFlareThumbnail@2x.png
-  artifactKey: Guid(37e93113453ac0d46863acd4090899c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/PostProcessing/LensFlareResource/CircleFlareThumbnail@2x.png using Guid(37e93113453ac0d46863acd4090899c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5827bf41b8c573e7f1a3cd32c2e8a3') in 0.067598 seconds 
+  Time since last request: 187184.330477 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding/Int_Molding_Base_Apt_03.prefab
+  artifactKey: Guid(b864c417db32982428d6e52b690ffc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding/Int_Molding_Base_Apt_03.prefab using Guid(b864c417db32982428d6e52b690ffc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefee9037660357ea41f87c16e62d0df') in 0.201648 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01_Lite_Convex.asset
-  artifactKey: Guid(26f6f51ba593cc04a8e86bf09ed09596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01_Lite_Convex.asset using Guid(26f6f51ba593cc04a8e86bf09ed09596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fa4fcfa479c306ff6aacbb8f8b42df') in 0.047944 seconds 
+  Time since last request: 28.552304 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab
+  artifactKey: Guid(79723f7a04c42fa4cb0fefb4f7686381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab using Guid(79723f7a04c42fa4cb0fefb4f7686381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c201999a191ecc52f83326371a64d71a') in 0.081088 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_01_Convex.asset
-  artifactKey: Guid(43908d8f3e5492743b16b3aee335f8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_01_Convex.asset using Guid(43908d8f3e5492743b16b3aee335f8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb93b0a5b85fe2b4ff13e58b5ac1a58e') in 0.014237 seconds 
+  Time since last request: 122.318079 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Stove_01.prefab
+  artifactKey: Guid(452921da7fe17904da8c1d34c235dee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Stove_01.prefab using Guid(452921da7fe17904da8c1d34c235dee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8154f269c1c31fd8fe9ca653653f97ac') in 0.102985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Church_Room_01_Snow.prefab
-  artifactKey: Guid(eb6dc373c6b62434d9eb4505a88c283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Church_Room_01_Snow.prefab using Guid(eb6dc373c6b62434d9eb4505a88c283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e197e08e30da9efb156fd4536fa6c7a3') in 0.146072 seconds 
+  Time since last request: 11.966771 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Shelf_Apt_01.prefab
+  artifactKey: Guid(658e64758890bc24ba679c51e2cd2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Shelf_Apt_01.prefab using Guid(658e64758890bc24ba679c51e2cd2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1689c8ce48d5af16103dd947bceeaf59') in 0.018553 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Church_Room_01.prefab
-  artifactKey: Guid(a72279e3b12169c46bafba06303acf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Church_Room_01.prefab using Guid(a72279e3b12169c46bafba06303acf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea513505ab3829a83147034343ba4435') in 0.009966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_02.fbx
-  artifactKey: Guid(149083546418a014f805a58e91713c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_02.fbx using Guid(149083546418a014f805a58e91713c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2dc70ec6c39b4726b31c03b29c2f0a') in 0.033069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_02_Convex.asset
-  artifactKey: Guid(1229a312049ed9d46983644eecc1fd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_02_Convex.asset using Guid(1229a312049ed9d46983644eecc1fd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53e18fc07833de1ed0e4db19d1121e3') in 0.010601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/PostProcessing/LensFlareResource/PolygonFlareThumbnail.png
-  artifactKey: Guid(f0326f07dd50365439f552e7f29218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/PostProcessing/LensFlareResource/PolygonFlareThumbnail.png using Guid(f0326f07dd50365439f552e7f29218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597c252022c7b8967536a43736e147c2') in 0.017452 seconds 
+  Time since last request: 0.002129 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Computer_01_Setup.prefab
+  artifactKey: Guid(7699f5af06713974ba61777a8a830f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Computer_01_Setup.prefab using Guid(7699f5af06713974ba61777a8a830f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0080e7f0c064f0a815a43d141eb30ea0') in 0.116393 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Church_Extension_01_Snow.prefab
-  artifactKey: Guid(0a72b7f8ab7503a4bb3fd2eaad55d42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Church_Extension_01_Snow.prefab using Guid(0a72b7f8ab7503a4bb3fd2eaad55d42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ea91520d096c22372cd1fa9c4837ec') in 0.024354 seconds 
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_02.prefab
+  artifactKey: Guid(372a0d77e8005d947bd72f3cf2cbde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_02.prefab using Guid(372a0d77e8005d947bd72f3cf2cbde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e5e7e30b49ebf9790dc7e627c920b8') in 0.017869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Media_01.prefab
+  artifactKey: Guid(54a1d2aa299948d4386f320102e514a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Media_01.prefab using Guid(54a1d2aa299948d4386f320102e514a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a782dff715b81c3d35043ef287035c3') in 0.027900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 538.288282 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/couch office.fbx
+  artifactKey: Guid(86bcf36b28c4876428c0e80590d3eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/couch office.fbx using Guid(86bcf36b28c4876428c0e80590d3eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e925f40056785f2910d4ea43c3adb2d') in 0.067978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/Cupboard.fbx
+  artifactKey: Guid(ca2f4fa1a1ebeca46ab1b9116e34ef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/Cupboard.fbx using Guid(ca2f4fa1a1ebeca46ab1b9116e34ef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ebc12d727ce568177066cee59e1cb0') in 0.037412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.413906 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_05.fbx
+  artifactKey: Guid(c6b0ac6322cb2ca48b2168c4004cf4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_05.fbx using Guid(c6b0ac6322cb2ca48b2168c4004cf4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855bb08d08e7285126aa9b8f42c0a346') in 0.024776 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01_Convex.asset
-  artifactKey: Guid(e24a64279f9a89f41a21fb0c8846c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01_Convex.asset using Guid(e24a64279f9a89f41a21fb0c8846c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a9b8ad6dd2b3c2c9ad96f8d5beab12') in 0.008488 seconds 
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_06.fbx
+  artifactKey: Guid(072e5d23700f8164296946050bc2e618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_06.fbx using Guid(072e5d23700f8164296946050bc2e618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4fd00edac428b35f98f8f1bb74ece8') in 0.022825 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Church_Room_02.prefab
-  artifactKey: Guid(9a16735a8eacd8b48933ccdf6dfffe45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Church_Room_02.prefab using Guid(9a16735a8eacd8b48933ccdf6dfffe45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ee20cde9d53693166ca2e043c913de') in 0.011215 seconds 
+  Time since last request: 2.660858 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01_Snow.fbx
+  artifactKey: Guid(5a04a5fcdd740f145a2e1e9b8085831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01_Snow.fbx using Guid(5a04a5fcdd740f145a2e1e9b8085831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0daba95d51117c6d584bb89c4120d79') in 0.021178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.644970 seconds.
+  path: Assets/Enviroment/enviroment/Office building/material props/Cupboard.mat
+  artifactKey: Guid(48d73beabad5c4942a89c45d73c8c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/material props/Cupboard.mat using Guid(48d73beabad5c4942a89c45d73c8c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369e9eba642ad310cf52819a217dd90b') in 0.019192 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01.fbx
-  artifactKey: Guid(35fe8825dd7b5b24ca4dc1e587edc6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01.fbx using Guid(35fe8825dd7b5b24ca4dc1e587edc6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f41fbb6a64ff8846232cb57194f93d1') in 0.015215 seconds 
+  path: Assets/Enviroment/enviroment/Office building/materials Building/Elevator.mat
+  artifactKey: Guid(f26ba6ebb5f8c4b4c8e18b3f8f4af834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/materials Building/Elevator.mat using Guid(f26ba6ebb5f8c4b4c8e18b3f8f4af834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0e3354ebef7a8736366a882da7f2ce') in 0.083838 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.538256 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_ignoredoverlay.png
-  artifactKey: Guid(0f5597de928ba6547895c4cdb9fa4185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_ignoredoverlay.png using Guid(0f5597de928ba6547895c4cdb9fa4185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229f7bf830dd87105e676822fc78b586') in 0.048751 seconds 
+  Time since last request: 834.248760 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Bowling_Ball_01.fbx
+  artifactKey: Guid(4336d8597e5ff1444a02b31ba1a98fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Bowling_Ball_01.fbx using Guid(4336d8597e5ff1444a02b31ba1a98fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598ff352ab3a7d239e0e2c46c8cfb28b') in 0.019836 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignored.png
-  artifactKey: Guid(595bc97bc8e1e0b46bd4c2148ba3723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignored.png using Guid(595bc97bc8e1e0b46bd4c2148ba3723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1739235e3439b79ee38ba063630c7171') in 0.039530 seconds 
+  Time since last request: 2.856543 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/Plant 2.fbx
+  artifactKey: Guid(c657c26c391a08e4ea339e8b016fa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/Plant 2.fbx using Guid(c657c26c391a08e4ea339e8b016fa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fd0a0341c9b3e86ac719bb66a17f7a') in 0.033679 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png
-  artifactKey: Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png using Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a14864ac307ac36cb878d53ddbd078') in 0.035145 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Leanto_01.fbx
+  artifactKey: Guid(d89873f8ec956f84f81a0e61e82e0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Leanto_01.fbx using Guid(d89873f8ec956f84f81a0e61e82e0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d37bec59440c9fac35d30c9e6d7049c') in 0.025809 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.178715 seconds.
-  path: Packages/com.unity.services.core/Editor/Core/ProjectBindRedirect/UXML/ProjectBindRedirectContent.uxml
-  artifactKey: Guid(c3ea97ea17d794d399434834be23ac62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.services.core/Editor/Core/ProjectBindRedirect/UXML/ProjectBindRedirectContent.uxml using Guid(c3ea97ea17d794d399434834be23ac62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a132ba31ca1b8509584f014234cc76dd') in 0.017278 seconds 
+  Time since last request: 377.545273 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LayoutVertical@2x.png
+  artifactKey: Guid(472b4042959bbd844b8fd760bddd7a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LayoutVertical@2x.png using Guid(472b4042959bbd844b8fd760bddd7a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77751bf4c438b61ebd1bab2c157cebb4') in 0.038437 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015100 seconds.
-  path: Packages/com.unity.services.core/Editor/Core/ProjectBindRedirect/USS/ProjectBindRedirectProjectSettings.uss
-  artifactKey: Guid(859a95323373144b7a6b438edfc6ee56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.services.core/Editor/Core/ProjectBindRedirect/USS/ProjectBindRedirectProjectSettings.uss using Guid(859a95323373144b7a6b438edfc6ee56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017799984171ffb70d08090c96a6c4a8') in 0.014094 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutVertical.png
+  artifactKey: Guid(6a9d49ac254f03c48bf5b6590f4d2a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutVertical.png using Guid(6a9d49ac254f03c48bf5b6590f4d2a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645062ddbbfec6a67f492d5e3d48f345') in 0.060776 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/RedirectNode.uss
-  artifactKey: Guid(e1a4e0aa330ca2f43b4625b248a0539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/RedirectNode.uss using Guid(e1a4e0aa330ca2f43b4625b248a0539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf4cb1e7e6a87cc84441109eb292670') in 0.011240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.329764 seconds.
-  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Buildings/Simple/SM_Buildings_WallChamfered_1x1_01.prefab
-  artifactKey: Guid(1222d2e9b6ea4c8478d75934e9a98b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Buildings/Simple/SM_Buildings_WallChamfered_1x1_01.prefab using Guid(1222d2e9b6ea4c8478d75934e9a98b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbac086114e03a0db480ec0ae65e2ea') in 0.029450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.120169 seconds.
-  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_WallChamfered_2x2_01.fbx
-  artifactKey: Guid(471d090967b61644f834501e5a1f4abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_WallChamfered_2x2_01.fbx using Guid(471d090967b61644f834501e5a1f4abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e857899fe11847a82b398bb62c76d68b') in 0.015328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_WallChamfered_2x2_01P.fbx
-  artifactKey: Guid(b47667a8840915147a5e57faf2c364d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_WallChamfered_2x2_01P.fbx using Guid(b47667a8840915147a5e57faf2c364d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2033d424d4030928ef26a54d459da5dd') in 0.016816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Buildings/Polygon/SM_Buildings_WallChamfered_2x2_01P.prefab
-  artifactKey: Guid(1a0c2535c014dc54cadd2f2172c087e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Buildings/Polygon/SM_Buildings_WallChamfered_2x2_01P.prefab using Guid(1a0c2535c014dc54cadd2f2172c087e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eea551108f65aad02de8784d09c723c') in 0.012534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Buildings/Simple/SM_Buildings_WallChamfered_2x2_01.prefab
-  artifactKey: Guid(0017824d0587b5a4a8e7e545e1e4f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Buildings/Simple/SM_Buildings_WallChamfered_2x2_01.prefab using Guid(0017824d0587b5a4a8e7e545e1e4f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732493946bdb4ec2e4d6b1af550fab3b') in 0.014148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.157777 seconds.
-  path: Assets/SyntyStudios/PolygonCity/Models/Collisions/SM_Env_WaterEdge_Corner_02_Convex.asset
-  artifactKey: Guid(0eff99918422d444e88d9d3da452be68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonCity/Models/Collisions/SM_Env_WaterEdge_Corner_02_Convex.asset using Guid(0eff99918422d444e88d9d3da452be68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864dbd2963ae6e3553d6ffb0cda17663') in 0.012641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SyntyStudios/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Pipe_01.prefab
-  artifactKey: Guid(31bea3e529df47e4eaa3fad5fda198b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Pipe_01.prefab using Guid(31bea3e529df47e4eaa3fad5fda198b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4b68c0b29a080258e720687c95b708') in 0.031994 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.services.core/Editor/Core/UiHelpers/USS/PlatformSupportVisualDark.uss
+  artifactKey: Guid(d4f6a83cd2a8c40ce97bda4199084fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/Editor/Core/UiHelpers/USS/PlatformSupportVisualDark.uss using Guid(d4f6a83cd2a8c40ce97bda4199084fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4989de3f18c95cdd8fcaa81b61096b0') in 0.017238 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/SyntyStudios/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Straight_01.prefab
-  artifactKey: Guid(91ccf0d6e58213544b5f911bb77f24c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Straight_01.prefab using Guid(91ccf0d6e58213544b5f911bb77f24c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71289b7252e63d0198892671b6626e89') in 0.035983 seconds 
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutVertical@2x.png
+  artifactKey: Guid(6b8067336fda8f040bb1f6d336ac08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutVertical@2x.png using Guid(6b8067336fda8f040bb1f6d336ac08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5eb60227ddf6bc1e26434c2432e5fe') in 0.034027 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.492137 seconds.
-  path: Assets/SyntyStudios/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Straight_02.prefab
-  artifactKey: Guid(005add2e805dff846a22a816bce2f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Straight_02.prefab using Guid(005add2e805dff846a22a816bce2f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd617d0e48af39db1444d81e2ece8d005') in 0.025905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SyntyStudios/PolygonCity/Models/SM_Env_WaterEdge_Straight_03.fbx
-  artifactKey: Guid(629dbe9aacf49f846833785b60e31854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Env_WaterEdge_Straight_03.fbx using Guid(629dbe9aacf49f846833785b60e31854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efdb1b2f9664559da13153243200962') in 0.026135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.535579 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/SpriteMaskShared.hlsl
-  artifactKey: Guid(c9ac51d204bc24b118ec6bc5ab6c29c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/SpriteMaskShared.hlsl using Guid(c9ac51d204bc24b118ec6bc5ab6c29c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571ba1ed933dc1d61c04a319f82d8ef4') in 0.011603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef
-  artifactKey: Guid(8461334e883c84d819a008a46143a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef using Guid(8461334e883c84d819a008a46143a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7381c017ddee60339677899478e8b7f8') in 0.007005 seconds 
+  Time since last request: 1.427660 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/TV_Apt_01.prefab
+  artifactKey: Guid(56a93cd127ed0184982c13ec0a61cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/TV_Apt_01.prefab using Guid(56a93cd127ed0184982c13ec0a61cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84d931174d191257b3abcda3e4bdea9') in 0.013494 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
