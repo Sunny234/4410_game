@@ -4,25 +4,23 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float life = 0.2f;
-
+    // Destroy self after 0.5 seconds
     private void Awake() {
-        Destroy(gameObject, life);
-    }
-
-    private void OnTriggerEnter(Collider other) {
-        if(other.gameObject.CompareTag("Enemy")) {
-            Destroy(gameObject);
-            other.gameObject.SetActive(false);
-        }
-        else {
-            Destroy(gameObject, life);
-        }
+        Destroy(gameObject, 0.5f);
     }
 
     private void OnCollisionEnter(Collision col) {
-        if(!(col.gameObject.CompareTag("Enemy"))) {
+        // If collided object is NOT an enemy, only destroy self
+        if(!(col.gameObject.CompareTag("Enemy"))) 
+        {
             Destroy(gameObject);
+        }
+
+        // If collided object is an enemy, destroy self and the enemy
+        if(col.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+            col.gameObject.SetActive(false);
         }
     }
 }
