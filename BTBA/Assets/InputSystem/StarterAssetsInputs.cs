@@ -15,6 +15,8 @@ namespace StarterAssets
 		public bool crouch;
 		public bool shoot;
 		public bool swapWeapon;
+		public bool reload;
+		public bool pauseGame;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -64,6 +66,18 @@ namespace StarterAssets
 		{
 			swapWeapon = value.isPressed;
 		}
+
+		// Function we added to reload current weapon
+		public void OnReload(InputValue value)
+		{
+			reload = value.isPressed;
+		}
+
+		// Function we added to pause the game
+		public void OnPauseGame(InputValue value)
+		{
+			pauseGame = value.isPressed;
+		}
 #endif
 
 		public void SwapWeaponInput(bool newSwapState)
@@ -95,13 +109,23 @@ namespace StarterAssets
 		{
 			sprint = newSprintState;
 		}
+
+		public void ReloadInput(bool newReloadState)
+		{
+			reload = newReloadState;
+		}
+
+		public void PauseGameInput(bool newPauseState)
+		{
+			pauseGame = newPauseState;
+		}
 		
 		private void OnApplicationFocus(bool hasFocus)
 		{
 			SetCursorState(cursorLocked);
 		}
 
-		private void SetCursorState(bool newState)
+		public void SetCursorState(bool newState)
 		{
 			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
 		}

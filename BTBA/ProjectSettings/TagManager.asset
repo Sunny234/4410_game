@@ -6,11 +6,19 @@ TagManager:
   tags:
   - CinemachineTarget
   - Enemy
+  - SniperPickup
+  - AKRiflePickup
+  - PistolPickup
+  - PlayerBullet
+  - EnemyBullet
+  - HealthPickup
+  - StaminaPickup
+  - ArmorPickup
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 

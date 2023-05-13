@@ -52,7 +52,7 @@
                 },
                 {
                     "name": "Shoot",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "739072e4-b16d-459c-9194-6ae14c57de37",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -63,6 +63,24 @@
                     "name": "SwapWeapon",
                     "type": "PassThrough",
                     "id": "e440c05a-f950-4a1c-9c26-30e62fb221bd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reload",
+                    "type": "PassThrough",
+                    "id": "551444b0-27f2-4ca8-8a39-dcc02a907ff6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PauseGame",
+                    "type": "PassThrough",
+                    "id": "6c387003-6960-4d53-ac04-11e6713804c7",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -263,7 +281,7 @@
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "KeyboardMouse",
                     "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -276,6 +294,28 @@
                     "processors": "",
                     "groups": "KeyboardMouse",
                     "action": "SwapWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc1a627d-ab0d-41c8-99ce-67ebe4f29a08",
+                    "path": "<Keyboard>/#(R)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37b32f9d-d9f0-4d92-8fd9-c194d44f308b",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "PauseGame",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

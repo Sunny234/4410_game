@@ -4,23 +4,20 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // Destroy self after 0.5 seconds
+    /* IMPORTANT NOTE! */
+    /* 
+        Fixed enemy bullets colliding with each other / other enemies by giving them an "Enemy" Layer,
+        then disabling collisions between "Enemy" and "Enemy" in the Collision Matrix under 
+        Edit > Project Settings > Physics
+    */
+
+    // Destroy self after 2.5 seconds
     private void Awake() {
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject, 2.5f);
     }
 
+    // Upon a collision, destroy self
     private void OnCollisionEnter(Collision col) {
-        // If collided object is NOT an enemy, only destroy self
-        if(!(col.gameObject.CompareTag("Enemy"))) 
-        {
-            Destroy(gameObject);
-        }
-
-        // If collided object is an enemy, destroy self and the enemy
-        if(col.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(gameObject);
-            col.gameObject.SetActive(false);
-        }
+        Destroy(gameObject);
     }
 }

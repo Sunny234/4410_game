@@ -1,26 +1,13 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
-
-/*
-	TODO:
-		- have shooting affect ammo text
-		- when ammo = 0, tell Gun.cs we can no longer shoot
-		- implement reloading, should take some time as well
-
-	Notes for weapon system:
-	- Reference all possible weapons in variables
-	- In Start() , SetActive(false) for non-starting weapons
-	- Set respective true and false booleans for list of current weapons
-		- IMPORTANT! Note which index is which
-	- 
-*/
 
 namespace StarterAssets
 {
@@ -32,11 +19,11 @@ namespace StarterAssets
 	{	
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
-		public float MoveSpeed = 4.0f;
+		public float MoveSpeed = 8.0f;
 		[Tooltip("Sprint speed of the character in m/s")]
-		public float SprintSpeed = 8.0f;
+		public float SprintSpeed = 16.0f;
 		[Tooltip("Crouch speed of the character in m/s")]
-		public float CrouchSpeed = 2.0f;
+		public float CrouchSpeed = 4.0f;
 		[Tooltip("Rotation speed of the character")]
 		public float RotationSpeed = 1.0f;
 		[Tooltip("Acceleration and deceleration")]
@@ -47,39 +34,75 @@ namespace StarterAssets
 		[Tooltip("Current stamina drain rate")]
 		public float staminaDrainRate = 20.0f;
 		[Tooltip("Current stamina regen rate")]
-		public float staminaRegenRate = 20.0f;
+		public float staminaRegenRate = 10.0f;
 		[Tooltip("Current Max Stamina")]
 		public float maxPlayerStamina = 100.0f;
+		[Tooltip("Health variables")]
+		public int maxHealth = 100;
+		public int currentHealth = 100;
+		[Tooltip("Armor variables")]
+		public int maxArmor = 100;
+		public int currentArmor = 100;
+		[Tooltip("Restore variables")]
+		public float staminaRestoreAmount = 50.0f;
+		public int armorRestoreAmount = 50;
+		public int healthRestoreAmount = 50;
 
 		[Header("UI")]
 		[Tooltip("Stamina Bar")]
 		[SerializeField] StaminaScript staminaBar;
 		[Tooltip("Stamina Bar Number")]
 		public TextMeshProUGUI staminaText;
+		[Tooltip("Health Bar")]
+		public Slider healthBar;
+		[Tooltip("Stamina Bar Number")]
+		public TextMeshProUGUI healthText;
+		[Tooltip("Armor Bar")]
+		public Slider armorBar;
+		[Tooltip("Stamina Bar Number")]
+		public TextMeshProUGUI armorText;
 		[Tooltip("Current ammo / clip size text")]
 		public TextMeshProUGUI ammoText;
 		[Tooltip("Max ammo text")]
 		public TextMeshProUGUI maxAmmoText;
+		[Tooltip("Reloading text")]
+		public GameObject reloadingText;
+		[Tooltip("Death Text")]
+		public GameObject deathText;
+		[Tooltip("Pause Menu Stuff")]
+		public GameObject pauseMenuUI;
+    	public bool isPaused;
+		private bool canPause = true;
 
 		// GOTO: "SetWeaponActive()" for corresponding weapon indices
 		[Header("Weapon variables")]
 		[Tooltip("Array of booleans for weapons player currently has")]
 		bool[] currentWeapons = {false, false, false, false, false, false, false, false, false, false};
 		[Tooltip("Array of weapon ammo clip sizes")]
-		int[] weaponClipSizes = {30, 15, 0, 0, 0, 0, 0, 0, 0, 0};
+		int[] weaponClipSizes = {30, 15, 10, 0, 0, 0, 0, 0, 0, 0};
 		[Tooltip("Array of current ammo values")]
-		int[] currentAmmoCount = {30, 15, 0, 0, 0, 0, 0, 0, 0, 0};
+		int[] currentAmmoCount = {30, 15, 10, 0, 0, 0, 0, 0, 0, 0};
+		[Tooltip("Array of default max weapon ammo used for when restoring max ammo")]
+		int[] defaultMaxWeaponAmmo = {180, 90, 40, 0, 0, 0, 0, 0, 0, 0};
 		[Tooltip("Array of max weapon ammo")]
-		int[] maxWeaponAmmo = {200, 100, 0, 0, 0, 0, 0, 0, 0, 0};
+		int[] maxWeaponAmmo = {180, 90, 40, 0, 0, 0, 0, 0, 0, 0};
+		[Tooltip("Integer for what will take place of max ammo after reloading")]
+		int newMaxAmmo;
 		[Tooltip("Boolean for Gun script for if we can still shoot - AKA if we still have ammo")]
-		bool canShoot = true;
+		public bool canShoot;
 		[Tooltip("Boolean for allowing player to switch weapons")]
 		bool canSwap = true;
+		[Tooltip("Boolean for allowing player to reload")]
+		bool canReload = true;
+		[Tooltip("Boolean for telling 'SetAmmoText' function if we just reloaded")]
+		bool reloaded = false;
+		bool reloading = false;
 		[Tooltip("Index of currently active weapon")]
 		private int activeWeaponIndex;
 		[Tooltip("Weapon Prefabs")]
-		public GameObject SF_AutoRifle;
-		public GameObject SF_Pistol;
+		public GameObject _rifleAK;
+		public GameObject _pistol;
+		public GameObject _sniperRifle;
 
 		[Header("Gravity variables")]
 		[Tooltip("The height the player can jump")]
@@ -108,6 +131,8 @@ namespace StarterAssets
 		public float TopClamp = 90.0f;
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
+
+		[Header("Helper Variables")]
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -157,7 +182,12 @@ namespace StarterAssets
 		{
 			SetStarterWeapons();
 			SetStaminaText();
-			SetAmmoText();
+			Init_Health_Armor_Bars();
+			reloadingText.SetActive(false);
+			pauseMenuUI.SetActive(false);
+			canShoot = false;
+			deathText.SetActive(false);
+			//pauseMenuUI.SetActive(false);
 			_controller = GetComponent<CharacterController>();
 			_input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
@@ -173,27 +203,46 @@ namespace StarterAssets
 
 		private void Update()
 		{
-			JumpAndGravity();
-			GroundedCheck();
-			Crouch();
-			Move();
-			SwapWeapons();
+			CheckIfPaused();
+
+			if (!(isPaused))
+			{
+				Crouch();
+				Move();
+				JumpAndGravity();
+				SwapWeapons();
+				ReloadWeapon();
+
+				if (_input.sprint && _input.move != Vector2.zero)
+				{
+					staminaBar.UseStamina(staminaDrainRate);
+				}
+				else
+				{
+					staminaBar.RegenerateStamina();
+				}
+
+				GroundedCheck();
+				SetAmmoText();
+				SetHealthText();
+				SetArmorText();
+				SetStaminaText();
+			}
 			
-			if (_input.sprint)
-			{
-				staminaBar.UseStamina(staminaDrainRate);
-			}
-			else
-			{
-				staminaBar.RegenerateStamina();
-			}
-			SetStaminaText();
 		}
 
 		private void LateUpdate()
 		{
-			CameraRotation();
+			HandleGamePause();
+			if (!(isPaused))
+				CameraRotation();
 		}
+
+		private void OnCollisionEnter(Collision col) {
+			if (col.gameObject.CompareTag("EnemyBullet"))
+				TakeDamage(30);
+		}
+
 
 		private void GroundedCheck()
 		{
@@ -231,8 +280,9 @@ namespace StarterAssets
 			float targetSpeed;
 			if (_input.sprint)
 			{
-				if (staminaBar.GetCurrentStamina() > 0) {
-				targetSpeed = SprintSpeed;
+				if (staminaBar.GetCurrentStamina() > 0) 
+				{
+					targetSpeed = SprintSpeed;
 				}
 				else
 				{
@@ -338,13 +388,45 @@ namespace StarterAssets
 			}
 		}
 
+		// Function for setting canShoot variable
+		private void CheckForAmmo()
+		{
+			if (currentAmmoCount[activeWeaponIndex] <= 0 || reloading)
+			{
+				canShoot = false;
+			}
+			else
+			{
+				canShoot = true;
+			}
+		}
+
 		// Function for updating / setting the ammo number value
 		private void SetAmmoText()
 		{
+			CheckForAmmo();
+			if (_input.shoot && canShoot && !(reloaded))
+			{
+				currentAmmoCount[activeWeaponIndex]--;
+			}
+			if (reloaded)
+			{
+				int clip_ammo_difference = weaponClipSizes[activeWeaponIndex] - currentAmmoCount[activeWeaponIndex];
+				if (maxWeaponAmmo[activeWeaponIndex] - clip_ammo_difference < 0)
+				{
+					currentAmmoCount[activeWeaponIndex] += maxWeaponAmmo[activeWeaponIndex];
+					maxWeaponAmmo[activeWeaponIndex] = 0;
+				}
+				else
+				{
+					currentAmmoCount[activeWeaponIndex] = weaponClipSizes[activeWeaponIndex];
+					maxWeaponAmmo[activeWeaponIndex] -= clip_ammo_difference; 
+				}
+				reloaded = false;
+			}
 			ammoText.text = currentAmmoCount[activeWeaponIndex].ToString() + " / " + weaponClipSizes[activeWeaponIndex].ToString();
 			maxAmmoText.text = maxWeaponAmmo[activeWeaponIndex].ToString();
 		}
-		
 
 		// Function for updating / setting the stamina number value
 		private void SetStaminaText()
@@ -352,6 +434,30 @@ namespace StarterAssets
 			double roundedNum = Math.Round(staminaBar.GetCurrentStamina(), 0);
 			double maxNum = staminaBar.GetMaximumStamina();
 			staminaText.text = roundedNum.ToString() + " / " + maxNum.ToString();
+		}
+
+		private void Init_Health_Armor_Bars()
+		{
+			armorBar.maxValue = maxArmor;
+			armorBar.value = maxArmor;
+			healthBar.maxValue = maxHealth;
+			healthBar.value = maxHealth;
+			SetArmorText();
+			SetHealthText();
+		}
+
+		// Function for updating / setting the stamina number value
+		private void SetArmorText()
+		{
+			armorText.text = currentArmor.ToString() + " / " + maxArmor.ToString();
+			armorBar.value = currentArmor;
+		}
+
+		// Function for updating / setting the stamina number value
+		private void SetHealthText()
+		{
+			healthText.text = currentHealth.ToString() + " / " + maxHealth.ToString();
+			healthBar.value = currentHealth;
 		}
 
 		// Function for setting the player's starting weapons
@@ -367,6 +473,7 @@ namespace StarterAssets
 		*/
 			SetWeaponActive(0, true);
 			SetWeaponActive(1, false);
+			SetWeaponActive(2, false);
 			currentWeapons[0] = true;
 			currentWeapons[1] = true;
 			activeWeaponIndex = 0;
@@ -398,8 +505,32 @@ namespace StarterAssets
 		IEnumerator haltSwap()
 		{
 			canSwap = false;
-			yield return new WaitForSecondsRealtime(0.25f);
+			yield return new WaitForSecondsRealtime(0.50f);
 			canSwap = true;
+		}
+
+		// Function for forcing the player to wait 0.25 seconds before being able to pause again
+		// Without it, player can hold down 'Tab' and pause indefinitely as long as it's held down
+		IEnumerator haltPause()
+		{
+			canPause = false;
+			yield return new WaitForSecondsRealtime(0.50f);
+			canPause = true;
+		}
+
+		IEnumerator reloadEnumerator()
+		{
+			canReload = false;
+			canSwap = false;
+			reloading = true;
+			reloadingText.SetActive(true);
+			yield return new WaitForSecondsRealtime(2.0f);
+			reloadingText.SetActive(false);
+			canReload = true;
+			canSwap = true;
+			reloaded = true;
+			reloading = false;
+			SetAmmoText();
 		}
 
 		// Function for setting certain weapons active / inactive (what shows up on screen)
@@ -407,27 +538,170 @@ namespace StarterAssets
 		{
 			if (active)
 			{
-				// Sci Fi Rifle
+				// AK-74 Rifle
 				if (arrIndex == 0) {
-					SF_AutoRifle.SetActive(true);
+					_rifleAK.SetActive(true);
 				}
 
-				// Sci Fi Pistol
+				// M1911 Pistol
 				if (arrIndex == 1) {
-					SF_Pistol.SetActive(true);
+					_pistol.SetActive(true);
+				}
+
+				// M4 Handguard Rifle
+				if (arrIndex == 2) {
+					_sniperRifle.SetActive(true);
 				}
 			}
 			else
 			{
-				// Sci Fi Rifle
+				// AK-74 Rifle
 				if (arrIndex == 0) {
-					SF_AutoRifle.SetActive(false);
+					_rifleAK.SetActive(false);
 				}
 
-				// Sci Fi Pistol
+				// M1911 Pistol
 				if (arrIndex == 1) {
-					SF_Pistol.SetActive(false);
+					_pistol.SetActive(false);
 				}
+
+				// M4 Handguard Rifle
+				if (arrIndex == 2) {
+					_sniperRifle.SetActive(false);
+				}
+			}
+		}
+
+		private bool DidRestoreAmmo(int groundWeaponIndex)
+		{
+			bool clipRestored = false;
+			bool maxAmmoRestored = false;
+			if (currentAmmoCount[groundWeaponIndex] < weaponClipSizes[groundWeaponIndex])
+			{
+				currentAmmoCount[groundWeaponIndex] = weaponClipSizes[groundWeaponIndex];
+				SetAmmoText();
+				clipRestored = true;
+			}
+			if (maxWeaponAmmo[groundWeaponIndex] < defaultMaxWeaponAmmo[groundWeaponIndex])
+			{
+				maxWeaponAmmo[groundWeaponIndex] = defaultMaxWeaponAmmo[groundWeaponIndex];
+				SetAmmoText();
+				maxAmmoRestored = true;
+			}
+			if (clipRestored || maxAmmoRestored)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		private void PickupWeapon(int _pickupWeaponIndex, Collider other) {
+		/*
+			How switching weapons work:
+			- Check if player had current weapon on ground in 'inventory'
+			- If player has weapon:
+				- Restore player's appropriate weapon ammo
+			- If not:
+				- Set current weapon to inactive
+				- Set current weapon index to false in 'inventory' list
+					- means we no longer have access to this weapon when swapping
+				- Set the pickup gameObject to false so it goes away
+				- Set picked up weapon to true in 'inventory' list
+				- Set picked up weapon to active
+				- Set activeWeaponIndex to picked up weapon index
+		*/
+		
+			// Checks if player's inventory contains weapon on ground already
+			bool _hasWeaponOnGround = currentWeapons[_pickupWeaponIndex];
+			
+			if (_hasWeaponOnGround)
+			{
+				if (DidRestoreAmmo(_pickupWeaponIndex))
+				{
+					other.gameObject.SetActive(false);
+				}
+			}
+			else
+			{
+				SetWeaponActive(activeWeaponIndex, false);
+				currentWeapons[activeWeaponIndex] = false;
+				other.gameObject.SetActive(false);
+				
+				if (_pickupWeaponIndex == 0) 
+				{
+					SetWeaponActive(0, true);
+					currentWeapons[0] = true;
+					activeWeaponIndex = 0;
+				}
+				if (_pickupWeaponIndex == 1)
+				{
+					SetWeaponActive(1, true);
+					currentWeapons[1] = true;
+					activeWeaponIndex = 1;
+				}
+				if (_pickupWeaponIndex == 2)
+				{
+					SetWeaponActive(2, true);
+					currentWeapons[2] = true;
+					activeWeaponIndex = 2;
+				}
+			}
+		}
+
+		// Function for handling trigger events (entering)
+		private void OnTriggerEnter(Collider other) {
+			if (other.gameObject.CompareTag("AKRiflePickup")) 
+				PickupWeapon(0, other);
+			
+			if (other.gameObject.CompareTag("PistolPickup")) 
+				PickupWeapon(1, other);
+			
+			if(other.gameObject.CompareTag("SniperPickup")) 
+				PickupWeapon(2, other);
+			
+
+			if (other.gameObject.CompareTag("HealthPickup")) 
+				RestoreHealth(other);
+			
+
+			if (other.gameObject.CompareTag("StaminaPickup")) 
+				RestoreStamina(other);
+			
+				
+			if (other.gameObject.CompareTag("ArmorPickup")) 
+				RestoreArmor(other);
+			
+		}
+
+		private void RestoreHealth(Collider pickup)
+		{
+			if (currentHealth < maxHealth) {
+				currentHealth += healthRestoreAmount;
+				currentHealth = Math.Min(currentHealth, maxHealth); // Makes sure you never go over the maximum amount
+				pickup.gameObject.SetActive(false);
+			}
+		}
+
+		private void RestoreStamina(Collider pickup)
+		{
+			if (staminaBar.GetCurrentStamina() < maxPlayerStamina) {
+				float updatedStamina = staminaBar.GetCurrentStamina();
+				updatedStamina += staminaRestoreAmount;
+				updatedStamina = Math.Min(updatedStamina, maxPlayerStamina); // Makes sure you never go over the maximum amount
+				staminaBar.SetCurrentStamina(updatedStamina);
+				pickup.gameObject.SetActive(false);
+			}
+		}
+
+		private void RestoreArmor(Collider pickup)
+		{
+			if (currentArmor < maxArmor) {
+				currentArmor += armorRestoreAmount;
+				currentArmor = Math.Min(currentArmor, maxArmor); // Makes sure you never go over the maximum amount
+				pickup.gameObject.SetActive(false);
 			}
 		}
 
@@ -442,6 +716,52 @@ namespace StarterAssets
 			{
 				_controller.height = StandingHeight;
 			}
+		}
+
+		// Function for reloading current weapon
+		private void ReloadWeapon()
+		{
+			int ammo = currentAmmoCount[activeWeaponIndex];
+			int clip = weaponClipSizes[activeWeaponIndex];
+			if (_input.reload && canReload && ammo < clip && maxWeaponAmmo[activeWeaponIndex] > 0)
+			{
+				StartCoroutine(reloadEnumerator());
+			}
+		}
+
+		// Function for taking damage
+		private void TakeDamage(int damageAmount)
+		{
+			/*
+				How this works overall:
+					- "DamageArmor" will return how much armor is remaining after our damage
+					- If this number is negative, that means we lost more armor than we had
+					- We have to add this negative number (subtract) to our health in order to account for it
+			*/
+			int damageOverflow = DamageArmor(damageAmount);
+			if (damageOverflow < 0)
+			{
+				currentHealth += damageOverflow;
+				CheckPlayerDeath();
+				currentHealth = Math.Max(currentHealth, 0);	// Never let current health be negative numbers
+			}
+		}
+
+		// Function for damaging armor
+		private int DamageArmor(int damageAmount)
+		{
+			int damageOverflow;
+			currentArmor -= damageAmount;
+			damageOverflow = currentArmor;
+			currentArmor = Math.Max(currentArmor, 0); // Never let current health be negative numbers
+			return damageOverflow;
+		}
+
+		// Function for checking if player has died
+		private void CheckPlayerDeath()
+		{
+			if (currentHealth <= 0)
+				deathText.SetActive(true);
 		}
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
@@ -462,5 +782,61 @@ namespace StarterAssets
 			// when selected, draw a gizmo in the position of, and matching radius of, the grounded collider
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
 		}
+
+		// --------------------------------------------------
+		// PAUSE MENU STUFF - Couldn't figure our how to use StarterAssetsInputs in other script
+
+		// Need this check because player can unpause the game through pressing "Resume" when paused
+		private void CheckIfPaused()
+		{
+			if(pauseMenuUI.activeInHierarchy)
+				isPaused = true;
+			else
+				isPaused = false;
+		}
+
+		private void HandleGamePause()
+		{
+			if (_input.pauseGame && canPause)
+			{
+				if (isPaused) {
+					StartCoroutine(haltPause());
+					_input.SetCursorState(true); // Lock cursor so we can play game
+					ResumeGame();
+				}
+
+				else {
+					StartCoroutine(haltPause());
+					_input.SetCursorState(false); // Unlock cursor so we can click menu
+					PauseGame();
+				}
+			}
+		}
+
+		public void ResumeGame() 
+		{
+			pauseMenuUI.SetActive(false);
+			Time.timeScale = 1f;
+			isPaused = false;
+		}
+		
+		public void PauseGame() 
+		{
+			pauseMenuUI.SetActive(true);
+			Time.timeScale = 0f;
+			isPaused = true;
+		}
+
+		public void MainMenu()
+		{
+			Time.timeScale = 1f;
+			SceneManager.LoadScene("MainMenu");
+		}
+
+		public void Exit()
+		{
+			Application.Quit();
+		}
+
 	}
 }

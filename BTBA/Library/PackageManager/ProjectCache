@@ -1,33 +1,96 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/F3rny/Documents/GitHub/4410_game/BTBA/Packages/manifest.json
+    m_FilePath: C:/Users/mannv/Documents/BTBA/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638180513392720836
-    m_Hash: 2513075031
+      ticks: 638180586978939028
+    m_Hash: 3289610551
   m_LockFileStatus:
-    m_FilePath: C:/Users/F3rny/Documents/GitHub/4410_game/BTBA/Packages/packages-lock.json
+    m_FilePath: C:/Users/mannv/Documents/BTBA/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638180513392730885
-    m_Hash: 3148743614
+      ticks: 638180587037426214
+    m_Hash: 3700379420
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/F3rny/Documents/GitHub/4410_game/BTBA/Packages
+m_ProjectPath: C:/Users/mannv/Documents/BTBA/Packages
 m_EditorVersion: 2021.3.17f1 (3e8111cac19d)
 m_ResolvedPackages:
+- packageId: com.unity.ai.navigation@1.0.0-exp.4
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0-exp.4
+  source: 1
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.ai.navigation@1.0.0-exp.4
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    compatible:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    verified: 
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637631812400000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: e38a28933e4513afa2b6084c2948852bd9daad56
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.cinemachine@2.8.9
   testable: 0
   isDirectDependency: 1
   version: 2.8.9
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.cinemachine@2.8.9
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.cinemachine@2.8.9
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -110,8 +173,12 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.4
     - 2.9.5
+    - 2.9.7
     - 3.0.0-pre.3
     - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
     compatible:
     - 2.8.9
     - 2.9.0-pre.1
@@ -120,6 +187,7 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.4
     - 2.9.5
+    - 2.9.7
     verified: 2.8.9
   dependencies:
   - name: com.unity.test-framework
@@ -182,7 +250,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.17.7
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.collab-proxy@1.17.7
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.collab-proxy@1.17.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -335,7 +403,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -422,7 +490,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.18
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.ide.rider@3.0.18
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -513,7 +581,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.17
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -594,7 +662,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -656,7 +724,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.4
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.inputsystem@1.4.4
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.inputsystem@1.4.4
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -759,12 +827,178 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.4.4
     nextVersion: 
+- packageId: com.unity.postprocessing@3.2.2
+  testable: 0
+  isDirectDependency: 1
+  version: 3.2.2
+  source: 1
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.postprocessing@3.2.2
+  assetPath: Packages/com.unity.postprocessing
+  name: com.unity.postprocessing
+  displayName: Post Processing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The post-processing stack (v2) comes with a collection of effects
+    and image filters you can apply to your cameras to improve the visuals of your
+    games.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.7
+    - 0.1.8
+    - 2.0.0-beta
+    - 2.0.1-beta
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.5-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.0.10-preview
+    - 2.0.11-preview
+    - 2.0.12-preview
+    - 2.0.13-preview
+    - 2.0.14-preview
+    - 2.0.15-preview
+    - 2.0.16-preview
+    - 2.0.17-preview
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0
+    - 3.0.1
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.2.0
+    - 3.2.1
+    - 3.2.2
+    compatible:
+    - 3.2.2
+    verified: 3.2.2
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637855259850000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Graphics.git
+    revision: 815ce78463c7d3006fa97cd6e8898d91cb9c3ebf
+    path: 
+  unityLifecycle:
+    version: 3.2.2
+    nextVersion: 
+- packageId: com.unity.progrids@3.0.3-preview.6
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.3-preview.6
+  source: 1
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
+  assetPath: Packages/com.unity.progrids
+  name: com.unity.progrids
+  displayName: ProGrids
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'Advanced grid and object snapping for the scene view. ProGrids is
+    a dynamically placed grid, available on all 3 axes and at any position in the
+    scene.
+
+
+    ProGrids snaps objects in world space, ensuring consistent placement
+    of objects in your level.
+
+
+    In addition, ProGrids is completely customizable.
+    Change the colors of your grid, the snap sizing, unit of measurement, and more!'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 3.0.1-preview
+    - 3.0.2-preview
+    - 3.0.3-preview.0
+    - 3.0.3-preview.4
+    - 3.0.3-preview.5
+    - 3.0.3-preview.6
+    compatible:
+    - 3.0.1-preview
+    - 3.0.2-preview
+    - 3.0.3-preview.0
+    - 3.0.3-preview.4
+    - 3.0.3-preview.5
+    - 3.0.3-preview.6
+    verified: 
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  keywords:
+  - grid
+  - snap
+  - manipulation
+  - array
+  - align
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637209307060000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.progrids.git
+    revision: 381f2b0b5dda11525d53e2c608284a3f68d1beff
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.render-pipelines.universal@12.1.9
   testable: 0
   isDirectDependency: 1
   version: 12.1.9
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.render-pipelines.universal@12.1.9
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.render-pipelines.universal@12.1.9
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -894,7 +1128,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.31
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1008,7 +1242,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1177,7 +1411,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.4
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.timeline@1.6.4
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1261,6 +1495,7 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -1273,6 +1508,7 @@ m_ResolvedPackages:
     - 1.8.2
     compatible:
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -1283,7 +1519,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1334,7 +1570,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1353,6 +1589,7 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
     compatible:
     - 1.0.0
     verified: 1.0.0
@@ -1397,7 +1634,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.0
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1484,7 +1721,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1533,7 +1770,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1581,7 +1818,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1630,7 +1867,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1679,7 +1916,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1728,7 +1965,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1781,7 +2018,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1838,7 +2075,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1888,7 +2125,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1937,7 +2174,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1986,7 +2223,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2035,7 +2272,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2084,7 +2321,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2133,7 +2370,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2186,7 +2423,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2235,7 +2472,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2292,7 +2529,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2344,7 +2581,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2393,7 +2630,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2458,7 +2695,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2507,7 +2744,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2564,7 +2801,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2613,7 +2850,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2670,7 +2907,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2727,7 +2964,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2784,7 +3021,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2857,7 +3094,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2910,7 +3147,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2971,7 +3208,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3034,7 +3271,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3083,7 +3320,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3144,7 +3381,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3197,7 +3434,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -3257,7 +3494,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3318,7 +3555,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.mathematics@1.2.6
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -3384,7 +3621,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.2
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.burst@1.8.2
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.burst@1.8.2
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3570,7 +3807,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 12.1.9
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.render-pipelines.core@12.1.9
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.render-pipelines.core@12.1.9
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3738,7 +3975,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 12.1.9
   source: 2
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.shadergraph@12.1.9
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.shadergraph@12.1.9
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3900,12 +4137,70 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 12.1.9
     nextVersion: 
+- packageId: com.unity.settings-manager@1.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.3
+  source: 1
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.settings-manager@1.0.3
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    verified: 1.0.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637300096300000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    path: 
+  unityLifecycle:
+    version: 1.0.3
+    nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3964,7 +4259,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.1
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4030,7 +4325,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4128,7 +4423,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.7.0
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.services.core@1.7.0
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.services.core@1.7.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -4215,7 +4510,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.1
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.searcher@4.9.1
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.searcher@4.9.1
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -4277,70 +4572,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.9.1
     nextVersion: 
-- packageId: com.unity.settings-manager@1.0.3
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.3
-  source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.settings-manager@1.0.3
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    verified: 1.0.3
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637300096300000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
-    path: 
-  unityLifecycle:
-    version: 1.0.3
-    nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
   isDirectDependency: 0
   version: 3.0.2
   source: 1
-  resolvedPath: C:\Users\F3rny\Documents\GitHub\4410_game\BTBA\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
+  resolvedPath: C:\Users\mannv\Documents\BTBA\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4378,9 +4615,13 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.0.2
     - 3.1.0
+    - 3.2.0
+    - 3.2.1
     compatible:
     - 3.0.2
     - 3.1.0
+    - 3.2.0
+    - 3.2.1
     verified: 3.0.2
   dependencies: []
   resolvedDependencies: []
