@@ -1,0 +1,605 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684137463393300, "dur": 544848, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684137463393544, "dur": 4886, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684137463398432, "dur": 30793, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684137463429227, "dur": 298498, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684137463727726, "dur": 198729, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684137463926456, "dur": 11690, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684137463939247, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1684137463587037, "dur": 126093, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684137463587976, "dur": 44652, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684137463697218, "dur": 4792, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684137463702014, "dur": 11110, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684137463702702, "dur": 9340, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684137463717726, "dur": 1108, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684137463716961, "dur": 1893, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684137463939353, "dur": 212, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684137463771128, "dur":1540, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463772673, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684137463772776, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684137463772792, "dur":584, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684137463773404, "dur":625, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463774029, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912411, "dur":106, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912517, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912527, "dur":91, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912618, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912656, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912658, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912661, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912662, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912666, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912666, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912670, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912671, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912675, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912676, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912680, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912681, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912684, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912685, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912688, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912689, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912694, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912694, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912698, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912698, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912702, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912714, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463912734, "dur":1873, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684137463773410, "dur":624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463774035, "dur":5940, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463779990, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684137463779998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463781613, "dur":789, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684137463782406, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684137463782545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463782831, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684137463785598, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684137463785818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463786584, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684137463788358, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463788659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463788926, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463791550, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463791711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463791716, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463794809, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463795021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463795027, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463798878, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463799203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463799209, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463802288, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463802590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463802596, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463805832, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463806048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463806053, "dur":4087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463810198, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463810437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463810442, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463813224, "dur":912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463814139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463814160, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463818833, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463819039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463819044, "dur":3793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463822896, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463823174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463823179, "dur":3005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463826247, "dur":1147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463827398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463827404, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463831774, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463832069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463832075, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463835633, "dur":821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463836457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463836462, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684137463839742, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684137463839811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684137463839816, "dur":72531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684137463912390, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1684137463912392, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463773670, "dur":517, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463774187, "dur":5797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463779989, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684137463780169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463783457, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684137463786603, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1684137463786840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463786870, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1684137463789561, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463789747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463789751, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463792399, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463792685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463792745, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463796555, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463796793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463796798, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463799510, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463799817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463799823, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463803387, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463803676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463803682, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463807132, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463807369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463807375, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463810967, "dur":2589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463813559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463813565, "dur":4679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463818336, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463818579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463818585, "dur":4394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463823037, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463823697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463823703, "dur":4031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463827823, "dur":2994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463830820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463830826, "dur":4843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463835740, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463836555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463836578, "dur":7101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684137463843792, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1684137463843862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684137463843871, "dur":5500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1684137463849441, "dur":62976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463773459, "dur":579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463774038, "dur":5945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463779989, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684137463780169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463783405, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684137463786666, "dur":22359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463809028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463809108, "dur":5603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463814770, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463815119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463815126, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463819082, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463819297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463819302, "dur":4260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463823651, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463823895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463823900, "dur":3692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463827654, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463827874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463827880, "dur":3230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463831167, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463831379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463831385, "dur":4223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463835673, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463836053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463836060, "dur":3116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684137463839238, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1684137463839306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463839480, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1684137463841359, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1684137463841610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463841616, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1684137463844895, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1684137463845021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684137463845026, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1684137463849941, "dur":62469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463773481, "dur":561, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463774042, "dur":5940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463779989, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684137463780884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463783401, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684137463785795, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1684137463786170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463786707, "dur":3005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1684137463789778, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463790011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463790016, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463793129, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463793425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463793430, "dur":4189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463797676, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463797928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463797932, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463801041, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463801273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463801279, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463804273, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463804511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463804538, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463808341, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463808582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463808589, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463811713, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463811933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463811939, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463815184, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463815883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463815887, "dur":6997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463822942, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463823130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463823136, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463826358, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463826622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463826629, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463830243, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463830446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463830452, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463833801, "dur":1411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463835216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463835224, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463837965, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463838249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463839617, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684137463842033, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684137463842107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463842111, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684137463845946, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1684137463846314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684137463846323, "dur":3166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1684137463849561, "dur":62847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684137463773505, "dur":541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684137463774046, "dur":5935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684137463779990, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684137463780227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684137463783675, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684137463786675, "dur":64519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684137463851197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684137463851203, "dur":21182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684137463872430, "dur":39984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463773527, "dur":579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463774106, "dur":5871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463779989, "dur":1052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1684137463781043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463783345, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1684137463786185, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1684137463786291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463786295, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1684137463788299, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1684137463788419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463788800, "dur":7624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1684137463796493, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463796732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463796737, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463799969, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463800180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463800185, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463804137, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463804536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463804541, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463808296, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463808533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463808540, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463812015, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463812260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463812268, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463814989, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463815205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463815211, "dur":5905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463821176, "dur":1314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463822493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463822497, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463825923, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463826739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463826744, "dur":3473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463830277, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463830566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463830571, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463833562, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463833835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463833844, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463836800, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463837029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463837034, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684137463840322, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684137463840387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463840392, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684137463843939, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1684137463843999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684137463844004, "dur":3658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1684137463847715, "dur":64700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463773546, "dur":564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463774110, "dur":5869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463779990, "dur":932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1684137463780925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463783141, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1684137463785730, "dur":967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684137463786699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463786706, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684137463789232, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463789467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463789471, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463792184, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463792526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463792533, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463794753, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463795033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463795039, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463798426, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463798607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463798612, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463802405, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463802619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463802624, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463806160, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463806512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463806519, "dur":4159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463810739, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463810968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463810974, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463813778, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463814122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463814127, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463817749, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463818195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463818201, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463822125, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463822370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463822375, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463824821, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463825066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463825071, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463828676, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463829122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463829128, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463831914, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463832144, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463832153, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463835708, "dur":8708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463844419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684137463844425, "dur":8554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684137463853023, "dur":59394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463773567, "dur":546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463774113, "dur":5885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463779999, "dur":947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1684137463780948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463783109, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1684137463785717, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684137463785991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463786126, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684137463788896, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463789155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463789221, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463791680, "dur":1501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463793184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463793190, "dur":4387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463797630, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463797839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463797844, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463801057, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463801420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463801426, "dur":3075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463804597, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463804807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463804812, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463809032, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463809247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463809253, "dur":4540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463813857, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463814121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463814127, "dur":4087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463818275, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463818483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463818487, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463822174, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463822385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463822390, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463824844, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463825104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463825108, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463829328, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463829802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463829808, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463833046, "dur":4643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463837692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463837697, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684137463841712, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1684137463841773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684137463841778, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1684137463846770, "dur":65642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463773591, "dur":525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463774116, "dur":5862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463779990, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684137463780169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463783636, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684137463786643, "dur":3867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463790513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463791453, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463793836, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463794023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463794027, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463797318, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463797925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463797930, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463801049, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463801261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463801268, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463804278, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463804606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463804611, "dur":4162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463808842, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463809107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463809113, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463813235, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463813472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463813477, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463816437, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463816683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463816689, "dur":5339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463822087, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463822288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463822294, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463825314, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463825772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463825798, "dur":4003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463829864, "dur":918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463830785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463830790, "dur":4535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463835391, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463835741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463835747, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684137463838303, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1684137463838558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463839574, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1684137463841770, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684137463841841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684137463841846, "dur":5680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684137463847601, "dur":64808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463773611, "dur":508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463774119, "dur":5869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463779988, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1684137463780171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463783426, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1684137463786744, "dur":760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test.exe" }}
+,{ "pid":12345, "tid":10, "ts":1684137463787506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463787509, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test.exe" }}
+,{ "pid":12345, "tid":10, "ts":1684137463790899, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463791086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463791091, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463793187, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463793400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463793406, "dur":3818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463797269, "dur":1120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463798392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463798399, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463802355, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463802590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463802596, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463805658, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463805872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463805877, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463809493, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463809854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463809859, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463813089, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463813354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463813362, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463815893, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463816205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463816209, "dur":4899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463821170, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463821394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463821505, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463823912, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463824156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463824162, "dur":3531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463827759, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463828137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463828143, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463830947, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463831255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463831261, "dur":4260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463835583, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463836336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463836342, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684137463839910, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1684137463840023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463840028, "dur":4651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1684137463844742, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1684137463844808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684137463844813, "dur":5936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1684137463850834, "dur":61579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463773633, "dur":548, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463774181, "dur":5826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463780007, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1684137463780237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463784252, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1684137463786700, "dur":6824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1684137463793526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463793531, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1684137463796273, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463796490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463796496, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463799156, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463799418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463799423, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463802309, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463802523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463802529, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463805421, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463805670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463805676, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463809299, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463809515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463809539, "dur":5381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463814993, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463815215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463815220, "dur":6580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463822454, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463823289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463823294, "dur":3479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463826826, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463827261, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463827360, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463832345, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463832995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463833003, "dur":3452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463836504, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463836936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463836941, "dur":3141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684137463840139, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684137463840201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463840206, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684137463843806, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684137463843864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684137463843872, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684137463847192, "dur":65219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463773648, "dur":537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463774185, "dur":5800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463779990, "dur":978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684137463780970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463783102, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684137463785651, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684137463786404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463786704, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684137463788995, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463789222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463789228, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463791667, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463792311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463792320, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463796265, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463796557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463796562, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463799548, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463799856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463799885, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463803366, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463803596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463803602, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463806988, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463807307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463807314, "dur":4111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463811488, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463811794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463811801, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463815060, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463815681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463815688, "dur":5741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463821491, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463821687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463821693, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463823919, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463824461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463824466, "dur":4002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463828547, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463828861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463828868, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463833046, "dur":3130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463836178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463836184, "dur":4128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684137463840367, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1684137463840620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463840625, "dur":3386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1684137463844126, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1684137463844196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684137463844315, "dur":5345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mannv/Documents/BTBA_exe/FPS-game-test_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1684137463849718, "dur":62698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684137463915998, "dur":1772, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684137463939640, "dur": 679, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684137463939237, "dur": 1113, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -94,14 +94,14 @@ public class EnemyAI : MonoBehaviour
         // If the distance to this walk point is less than 1 unit, current walk point has been 'reached'
         if (distanceToWalkPoint.magnitude < 1f) {
             walkPointSet = false;
-            StartCoroutine(waitToPatrol());
+            isWalking = true;
+            Invoke(nameof(ResetWalkingVariable), timeBetweenPatrols);
         }
     }
 
-    IEnumerator waitToPatrol()
+
+    private void ResetWalkingVariable()
     {
-        isWalking = true;
-        yield return new WaitForSecondsRealtime(timeBetweenPatrols);
         isWalking = false;
     }
 
@@ -130,7 +130,6 @@ public class EnemyAI : MonoBehaviour
             walkPointSet = true;
     }
 
-
     private void ChasePlayer()
     {
         thisAI.SetDestination(player.position);
@@ -149,11 +148,11 @@ public class EnemyAI : MonoBehaviour
         {
             // Code for shooting projectile
             // Important to have "transform.position + transform.forward" so that projectile doesn't hit self
-            Rigidbody rbody = Instantiate(projectile, transform.position + transform.forward, Quaternion.identity).GetComponent<Rigidbody>();
-            rbody.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rbody.AddForce(transform.up * 5f, ForceMode.Impulse);            
+            Rigidbody rbody = Instantiate(projectile, transform.position + transform.forward, Quaternion.identity).GetComponent<Rigidbody>();    
+            rbody.AddForce(transform.forward * 60.0f, ForceMode.Impulse);
+            rbody.AddForce(transform.up * 10.0f, ForceMode.Impulse);            
 
-            // TODO: Invoke calls a function after however much time you tell it to
+            // Invoke calls a function after however much time you tell it to
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
@@ -210,7 +209,7 @@ public class EnemyAI : MonoBehaviour
     // Function for destroying self
     private void DestroySelf()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false); // Set inactive instead so other script can count how many enemies are left
     }
 
 }

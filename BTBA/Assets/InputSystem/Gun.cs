@@ -23,7 +23,7 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (input.shoot && controller.canShoot && !(controller.isPaused))
+        if (input.shoot && controller.canShoot && !(controller.isPaused) && !(controller.playerIsDead))
         {
             Shoot();
             input.shoot = false;

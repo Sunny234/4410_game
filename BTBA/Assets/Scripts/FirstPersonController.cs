@@ -17,6 +17,12 @@ namespace StarterAssets
 #endif
 	public class FirstPersonController : MonoBehaviour
 	{	
+		[Header("Event Handlers / Objects")]
+		EventManager event_manager;
+		EnemyManager enemy_manager;
+		public GameObject[] respawnPoints;
+		private GameObject currentRespawnPoint;
+
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
 		public float MoveSpeed = 8.0f;
@@ -69,10 +75,14 @@ namespace StarterAssets
 		public GameObject reloadingText;
 		[Tooltip("Death Text")]
 		public GameObject deathText;
+		[Tooltip("Out Of Ammo Text")]
+		public GameObject outOfAmmoText;
 		[Tooltip("Pause Menu Stuff")]
 		public GameObject pauseMenuUI;
     	public bool isPaused;
 		private bool canPause = true;
+		[Tooltip("Manager for displaying tutorial messages")]
+		MessageManager msg_manager;
 
 		// GOTO: "SetWeaponActive()" for corresponding weapon indices
 		[Header("Weapon variables")]
@@ -83,13 +93,11 @@ namespace StarterAssets
 		[Tooltip("Array of current ammo values")]
 		int[] currentAmmoCount = {30, 15, 10, 0, 0, 0, 0, 0, 0, 0};
 		[Tooltip("Array of default max weapon ammo used for when restoring max ammo")]
-		int[] defaultMaxWeaponAmmo = {180, 90, 40, 0, 0, 0, 0, 0, 0, 0};
-		[Tooltip("Array of max weapon ammo")]
-		int[] maxWeaponAmmo = {180, 90, 40, 0, 0, 0, 0, 0, 0, 0};
-		[Tooltip("Integer for what will take place of max ammo after reloading")]
-		int newMaxAmmo;
+		int[] defaultMaxWeaponAmmo = {60, 30, 20, 0, 0, 0, 0, 0, 0, 0};
+		[Tooltip("Array of current max weapon ammo")]
+		int[] maxWeaponAmmo = {60, 30, 20, 0, 0, 0, 0, 0, 0, 0};
 		[Tooltip("Boolean for Gun script for if we can still shoot - AKA if we still have ammo")]
-		public bool canShoot;
+		public bool canShoot = true;
 		[Tooltip("Boolean for allowing player to switch weapons")]
 		bool canSwap = true;
 		[Tooltip("Boolean for allowing player to reload")]
@@ -133,6 +141,7 @@ namespace StarterAssets
 		public float BottomClamp = -90.0f;
 
 		[Header("Helper Variables")]
+		public bool playerIsDead = false;
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -176,6 +185,7 @@ namespace StarterAssets
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
 			}
+
 		}
 
 		private void Start()
@@ -185,10 +195,12 @@ namespace StarterAssets
 			Init_Health_Armor_Bars();
 			reloadingText.SetActive(false);
 			pauseMenuUI.SetActive(false);
-			canShoot = false;
 			deathText.SetActive(false);
 			//pauseMenuUI.SetActive(false);
 			_controller = GetComponent<CharacterController>();
+			msg_manager = GetComponent<MessageManager>();
+			event_manager = GetComponent<EventManager>();
+			enemy_manager = GetComponent<EnemyManager>();
 			_input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 			_playerInput = GetComponent<PlayerInput>();
@@ -199,13 +211,22 @@ namespace StarterAssets
 			// reset our timeouts on start
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
+			
+			// Had to add this because of bug where the starting weapon's ammo wouldn't decrement until the player swapped weapons
+			InfiniteAmmoFix();
+		}
+
+		private void InfiniteAmmoFix()
+		{
+			ForceWeaponSwap();
+			ForceWeaponSwap();
 		}
 
 		private void Update()
 		{
-			CheckIfPaused();
-
-			if (!(isPaused))
+			CheckRoundVictory();
+			// If game is not paused and player isn't dead
+			if (!(isPaused) && !(playerIsDead))
 			{
 				Crouch();
 				Move();
@@ -228,7 +249,6 @@ namespace StarterAssets
 				SetArmorText();
 				SetStaminaText();
 			}
-			
 		}
 
 		private void LateUpdate()
@@ -394,9 +414,12 @@ namespace StarterAssets
 			if (currentAmmoCount[activeWeaponIndex] <= 0 || reloading)
 			{
 				canShoot = false;
+				if (currentAmmoCount[activeWeaponIndex] <= 0)
+					outOfAmmoText.SetActive(true);
 			}
 			else
 			{
+				outOfAmmoText.SetActive(false);
 				canShoot = true;
 			}
 		}
@@ -479,58 +502,42 @@ namespace StarterAssets
 			activeWeaponIndex = 0;
 		}
 
+		// Function for forcing a weapon swap -> to fix infinite ammo bug
+		private void ForceWeaponSwap()
+		{
+			int totalPossibleWeapons = 10;
+			for (int newWeaponIndex = 0; newWeaponIndex < totalPossibleWeapons; newWeaponIndex++)
+			{
+				// If player has this weapon in 'inventory', and this weapon is NOT current weapon on screen
+				if ( (currentWeapons[newWeaponIndex] == true) && (newWeaponIndex != activeWeaponIndex) )
+				{
+					SetWeaponActive(activeWeaponIndex, false);
+					SetWeaponActive(newWeaponIndex, true);
+					activeWeaponIndex = newWeaponIndex;
+					break;
+				}
+			}
+		}
+
 		// Function for swapping weapons
 		private void SwapWeapons()
 		{
 			if (_input.swapWeapon && canSwap)
 			{
-				int totalPossibleWeapons = 10;
-				for (int newWeaponIndex = 0; newWeaponIndex < totalPossibleWeapons; newWeaponIndex++)
-				{
-					// If player has this weapon in 'inventory', and this weapon is NOT current weapon on screen
-					if ( (currentWeapons[newWeaponIndex] == true) && (newWeaponIndex != activeWeaponIndex) )
-					{
-						SetWeaponActive(activeWeaponIndex, false);
-						SetWeaponActive(newWeaponIndex, true);
-						activeWeaponIndex = newWeaponIndex;
-						break;
-					}
-				}
-				StartCoroutine(haltSwap());
+				ForceWeaponSwap(); // Not exactly "forcing" but it's the same code so why not put it here
+				canSwap = false;
+				Invoke(nameof(ResetSwapVariable), 0.5f);
 			}
 		}
 
-		// Function for forcing the player to wait 0.25 seconds before being able to swap again
-		// Without it, player can hold down 'Tab' and swap indefinitely as long as it's held down
-		IEnumerator haltSwap()
+		private void ResetSwapVariable()
 		{
-			canSwap = false;
-			yield return new WaitForSecondsRealtime(0.50f);
 			canSwap = true;
 		}
 
-		// Function for forcing the player to wait 0.25 seconds before being able to pause again
-		// Without it, player can hold down 'Tab' and pause indefinitely as long as it's held down
-		IEnumerator haltPause()
+		private void ResetPauseVariable()
 		{
-			canPause = false;
-			yield return new WaitForSecondsRealtime(0.50f);
 			canPause = true;
-		}
-
-		IEnumerator reloadEnumerator()
-		{
-			canReload = false;
-			canSwap = false;
-			reloading = true;
-			reloadingText.SetActive(true);
-			yield return new WaitForSecondsRealtime(2.0f);
-			reloadingText.SetActive(false);
-			canReload = true;
-			canSwap = true;
-			reloaded = true;
-			reloading = false;
-			SetAmmoText();
 		}
 
 		// Function for setting certain weapons active / inactive (what shows up on screen)
@@ -673,7 +680,41 @@ namespace StarterAssets
 				
 			if (other.gameObject.CompareTag("ArmorPickup")) 
 				RestoreArmor(other);
+
+			// If this trigger is a tutorial message, then display the appropriate message
+			if (msg_manager.IsTutorialMessageTrigger(other.gameObject))
+				msg_manager.DisplayMessage(other.gameObject.tag, true);
+
+			// If this trigger is for an enemy group, then spawn them
+			if (enemy_manager.IsEnemyGroupTrigger(other.gameObject))
+			{
+				enemy_manager.SpawnEnemyGroup(other.gameObject.tag);
+				SetRespawnPoint();
+				other.gameObject.SetActive(false);
+				if (other.gameObject.tag == "Enemies_Tutorial")
+					event_manager.EnableTutorialFightWall();
+				if (other.gameObject.tag == "Enemies_Lobby1")
+					event_manager.DisableLobbyArrow1();
+				if (other.gameObject.tag == "Enemies_Lobby2")
+					event_manager.DisableLobbyArrow2();
+			}
+
+			// If this trigger is a teleporter, then teleport the player
+			if(event_manager.IsTeleporter(other.gameObject))
+			{
+				_input.move = Vector2.zero;
+				transform.position = event_manager.GetTelportLocation(other.gameObject);
+				transform.rotation = event_manager.GetTelportRotation(other.gameObject);
+			}
 			
+		}
+
+		// Function for handling trigger events (exiting)
+		private void OnTriggerExit(Collider other)
+		{
+			// If this trigger is a tutorial message, then un-display the appropriate message
+			if (msg_manager.IsTutorialMessageTrigger(other.gameObject))
+				msg_manager.DisplayMessage(other.gameObject.tag, false);
 		}
 
 		private void RestoreHealth(Collider pickup)
@@ -725,8 +766,23 @@ namespace StarterAssets
 			int clip = weaponClipSizes[activeWeaponIndex];
 			if (_input.reload && canReload && ammo < clip && maxWeaponAmmo[activeWeaponIndex] > 0)
 			{
-				StartCoroutine(reloadEnumerator());
+				canReload = false;
+				canSwap = false;
+				reloading = true;
+				reloadingText.SetActive(true);
+				Invoke(nameof(FinishReload), 2.0f);
 			}
+		}
+
+		// Function for actually completing reload
+		private void FinishReload()
+		{
+			reloadingText.SetActive(false);
+			canReload = true;
+			canSwap = true;
+			reloaded = true;
+			reloading = false;
+			SetAmmoText();
 		}
 
 		// Function for taking damage
@@ -742,8 +798,9 @@ namespace StarterAssets
 			if (damageOverflow < 0)
 			{
 				currentHealth += damageOverflow;
-				CheckPlayerDeath();
 				currentHealth = Math.Max(currentHealth, 0);	// Never let current health be negative numbers
+				CheckPlayerDeath();
+				SetHealthText();
 			}
 		}
 
@@ -757,11 +814,55 @@ namespace StarterAssets
 			return damageOverflow;
 		}
 
+		// Function for checking if player won a round of enemies
+		private void CheckRoundVictory()
+		{
+			if (enemy_manager.playerVictory)
+			{
+				event_manager.HandleRoundWin(enemy_manager.groupNumber);
+			}
+		}
+
 		// Function for checking if player has died
 		private void CheckPlayerDeath()
 		{
 			if (currentHealth <= 0)
+			{
+				gameObject.SetActive(false);
 				deathText.SetActive(true);
+				playerIsDead = true;
+				Invoke(nameof(RespawnPlayer), 2.0f);
+			}
+		}
+
+		// Function for respawning the player back to their current respawn point
+		private void RespawnPlayer()
+		{
+			// Needed to go to Edit > Project Settings > Physics > enable 'Auto Sync Transforms'
+			_input.move = Vector2.zero;
+			_input.look = Vector2.zero;
+			transform.position = currentRespawnPoint.transform.position;
+			transform.rotation = currentRespawnPoint.transform.rotation;
+			playerIsDead = false;
+			deathText.SetActive(false);
+			gameObject.SetActive(true);
+			ResetStats();
+		}
+
+		// Function for setting respawn point
+		private void SetRespawnPoint()
+		{
+			// For each enemy trigger, there's a corresponding respawn point
+			// Update this respawn point each time the player moves into the enemy trigger
+			currentRespawnPoint = respawnPoints[enemy_manager.groupNumber];
+		}
+
+		// Function for resetting player's stats after a respawn
+		private void ResetStats()
+		{
+			currentHealth = maxHealth;
+			currentArmor = maxArmor;
+			staminaBar.SetCurrentStamina(maxPlayerStamina);
 		}
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
@@ -786,13 +887,13 @@ namespace StarterAssets
 		// --------------------------------------------------
 		// PAUSE MENU STUFF - Couldn't figure our how to use StarterAssetsInputs in other script
 
-		// Need this check because player can unpause the game through pressing "Resume" when paused
-		private void CheckIfPaused()
+		// Enumerator to help the pause menu not have a seizure when pausing
+		// Invoke() doesn't work because Time.timescale = 0f when paused so it never has chance to execute
+		IEnumerator haltPause()
 		{
-			if(pauseMenuUI.activeInHierarchy)
-				isPaused = true;
-			else
-				isPaused = false;
+			canPause = false;
+			yield return new WaitForSecondsRealtime(0.5f);
+			canPause = true;
 		}
 
 		private void HandleGamePause()

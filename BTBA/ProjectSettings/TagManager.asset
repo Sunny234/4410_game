@@ -14,6 +14,22 @@ TagManager:
   - HealthPickup
   - StaminaPickup
   - ArmorPickup
+  - Cone_Intro
+  - Cone_Crouch
+  - Cone_Jump
+  - Cone_WeaponPickups
+  - Cone_StartFight
+  - Cone_StatPickups
+  - Cone_End
+  - Trigger_Intro
+  - Enemies_Tutorial
+  - Respawn_Tutorial
+  - Respawn_Lobby
+  - Teleporter_Tutorial
+  - Trigger_Enemies
+  - Enemies_Lobby1
+  - Enemies_Lobby2
+  - Teleporter_Lobby
   layers:
   - Default
   - TransparentFX
@@ -21,8 +37,8 @@ TagManager:
   - Enemy
   - Water
   - UI
-  - 
-  - 
+  - EnemyProjectile
+  - PlayerProjectile
   - Character
   - Ground
   - 
